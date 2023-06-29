@@ -16,6 +16,7 @@ lib-types
 etc
 external
 node_modules
+tailwind.config.js
 temp
 tsc-out
 tsdoc-metadata.json
