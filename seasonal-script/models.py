@@ -18,3 +18,18 @@ class DestinyPresentationNodeDefinition(Base):
     __tablename__ = 'DestinyPresentationNodeDefinition'
     id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
     json = sqlalchemy.Column(sqlalchemy.JSON)
+
+class DestinyRecordDefinition(Base):
+    __tablename__ = 'DestinyRecordDefinition'
+    id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
+    json = sqlalchemy.Column(sqlalchemy.JSON)
+
+class DestinyObjectiveDefinition(Base):
+    __tablename__ = 'DestinyObjectiveDefinition'
+    id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
+    json = sqlalchemy.Column(sqlalchemy.JSON)
+
+class DestinyInventoryItemDefinition(Base):
+    __tablename__ = 'DestinyInventoryItemDefinition'
+    id = sqlalchemy.Column(sqlalchemy.Integer, primary_key=True)
+    json = sqlalchemy.Column(sqlalchemy.JSON)
