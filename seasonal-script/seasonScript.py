@@ -4,6 +4,7 @@
 # we'll use the the manifest that bungie gives to do so, when given the new season's name
 
 import sys, os, requests ,sqlalchemy
+from sqlalchemy import inspect
 from sqlalchemy.orm import sessionmaker
 from models import DestinySeasonDefinition, DestinyProgressionDefinition, DestinyPresentationNodeDefinition, DestinyRecordDefinition, DestinyObjectiveDefinition, DestinyInventoryItemDefinition
 
@@ -36,9 +37,9 @@ def seasonScrape (seasonName, manifestLocation):
     # example season hash: 2758726569 (for season of the deep)
     # we get the season challenge root presentation node hash from the season data and work our way down the tree to get the challenges
     # get the seasonPassChallengesPresentationNodeHash from the season data
-    seasonPassChallengesPresentationNodeHash = seasonData['seasonPassChallengesPresentationNodeHash']
+    seasonPassChallengesPresentationNodeHash = seasonData['seasonalChallengesPresentationNodeHash']
     # use it to get the seasonPassChallengesPresentationNode from the manifest (from the DestinyPresentationNodeDefinition table)
-    seasonPassChallengesPresentationNode = session.query(DestinyPresentationNodeDefinition).filter(DestinyPresentationNodeDefinition.json['hash'] == seasonPassChallengesPresentationNodeHash).first()
+    seasonPassChallengesPresentationNode = session.query(DestinyPresentationNodeDefinition).filter(DestinyPresentationNodeDefinition.json['hash'] == str(seasonPassChallengesPresentationNodeHash)).first()
     # if we didn't find a matching row, error
     if seasonPassChallengesPresentationNode == None:
         print("Error: season pass challenges presentation node hash not found in manifest")
@@ -48,7 +49,7 @@ def seasonScrape (seasonName, manifestLocation):
     # we want the weekly challenges, which is the first child of the seasonPassChallengesPresentationNode
     weeklyPresentationNodeHash = seasonPassChallengesPresentationNode.json['children']['presentationNodes'][0]['presentationNodeHash']
     # use it to get the weeklyPresentationNode from the manifest (from the DestinyPresentationNodeDefinition table)
-    weeklyPresentationNode = session.query(DestinyPresentationNodeDefinition).filter(DestinyPresentationNodeDefinition.json['hash'] == weeklyPresentationNodeHash).first()
+    weeklyPresentationNode = session.query(DestinyPresentationNodeDefinition).filter(DestinyPresentationNodeDefinition.json['hash'] == str(weeklyPresentationNodeHash)).first()
     # if we didn't find a matching row, error
     if weeklyPresentationNode == None:
         print("Error: weekly presentation node hash not found in manifest")
@@ -59,6 +60,9 @@ def seasonScrape (seasonName, manifestLocation):
     for child in weeklyPresentationNode.json['children']['presentationNodes']:
         weeklyPresentationNodeChildrenHashes.append(child['presentationNodeHash'])
     
+    # Convert the integers to strings for the json comparison
+    weeklyPresentationNodeChildrenHashes = [str(hash) for hash in weeklyPresentationNodeChildrenHashes]
+
     # use the hashes to get the weeklyPresentationNodes from the manifest (from the DestinyPresentationNodeDefinition table)
     # this is an array of the weekly presentation nodes
     weeklyPresentationNodes = session.query(DestinyPresentationNodeDefinition).filter(DestinyPresentationNodeDefinition.json['hash'].in_(weeklyPresentationNodeChildrenHashes)).all()
@@ -81,7 +85,7 @@ def seasonScrape (seasonName, manifestLocation):
     weeklyChallengeData = []
     for weeklyChallengeRecord in weeklyChallengeRecords:
         week = weeklyChallengeRecord[0]
-        recordHash = weeklyChallengeRecord[1]
+        recordHash = str(weeklyChallengeRecord[1])
         # get the record from the manifest (from the DestinyRecordDefinition table)
         record = session.query(DestinyRecordDefinition).filter(DestinyRecordDefinition.json['hash'] == recordHash).first()
         # if we didn't find a matching row, error
@@ -308,7 +312,7 @@ if __name__ == "__main__":
 
     # if debug is true, we'll use the default values for the arguments
     seasonName = "Season of the Deep"
-    manifestLocation = "manifest.sqlite3"
+    manifestLocation = "seasonal-script/manifest.sqlite3"
 
     if not debug:
         if len(sys.argv) != 3:
