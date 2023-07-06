@@ -1,0 +1,160 @@
+{
+    "Super Salvager": {
+        "name": "Super Salvager",
+        "week": "Week 8",
+        "description": "Defeat combatants with Super abilities in Salvage activities.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Super",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    },
+    "Treasures from the Deep": {
+        "name": "Treasures from the Deep",
+        "week": "Week 8",
+        "description": "Complete a Deep Dive activity with the highest tier reward bonus.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "",
+                "startValue": "0",
+                "completionValue": "1"
+            }
+        ]
+    },
+    "Commendable Diver": {
+        "name": "Commendable Diver",
+        "week": "Week 8",
+        "description": "Give or receive commendations in matchmade Deep Dive activities.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Commendations",
+                "startValue": "0",
+                "completionValue": "6"
+            }
+        ]
+    },
+    "Pinnacle": {
+        "name": "Pinnacle",
+        "week": "Week 8",
+        "description": "Reach Power Level {var:1131227462} by earning pinnacle rewards.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Power Level",
+                "startValue": "0",
+                "completionValue": "1810"
+            }
+        ]
+    },
+    "Trial by Firing Squad": {
+        "name": "Trial by Firing Squad",
+        "week": "Week 8",
+        "description": "Win multiple rounds in the Trials of Osiris.",
+        "rewardItems": [
+            {
+                "name": "Trials of Osiris Weapon",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Challenger XP+++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Wins",
+                "startValue": "0",
+                "completionValue": "20"
+            }
+        ]
+    },
+    "Broadside": {
+        "name": "Broadside",
+        "week": "Week 8",
+        "description": "Defeat targets in Gambit with Power Weapons. Bonus progress is granted for final blows with Linear Fusion Rifles and for defeating Guardians.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "150"
+            }
+        ]
+    },
+    "Implements of War": {
+        "name": "Implements of War",
+        "week": "Week 8",
+        "description": "Defeat targets with Auto Rifles, Hand Cannons, Scout Rifles, Glaives, and Linear Fusion Rifles. Bonus progress is granted for defeating Guardians.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "150"
+            }
+        ]
+    }
+}

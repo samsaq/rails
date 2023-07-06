@@ -3,12 +3,11 @@
 # note: this script is not handling the theming of the site, only the data that changes seasonally
 # we'll use the the manifest that bungie gives to do so, when given the new season's name
 
-import sys, os, requests ,sqlalchemy
-from sqlalchemy import inspect
+import sys, os, requests ,sqlalchemy, shutil, json as jsonlib
 from sqlalchemy.orm import sessionmaker
 from models import DestinySeasonDefinition, DestinyProgressionDefinition, DestinyPresentationNodeDefinition, DestinyRecordDefinition, DestinyObjectiveDefinition, DestinyInventoryItemDefinition
 
-debug = True
+debug = False
 baseUrl = "https://www.bungie.net"
 
 def seasonScrape (seasonName, manifestLocation):
@@ -127,20 +126,25 @@ def seasonScrape (seasonName, manifestLocation):
     # the seasonChallengesData subfolder will contain the weekly challenge data in a set of files named <week>.json
     # the seasonPassData subfolder will contain the season pass data in a subfolder called seasonPassImages
     # the images will have names containing their metadata, and will be in jpg format
-    # this is in the form of rank<rank number>_<free/premium>_<item name>_<item quantity>.jpg
+    # this is in the form of rank<rank number>_<free/premium>.jpg
+    # the rest of the metadata for the images will be in a file called seasonPassData.json
+    # this will contain a list of objects (for each image) with the file name, item name, item description, and item quantity, rank, and free/premium status
 
-    # first, create the various folders if they don't exist
-    if not os.path.exists('seasonalData'):
-        os.makedirs('seasonalData')
-        if not os.path.exists('seasonalData/seasonChallengesData'):
-            os.makedirs('seasonalData/seasonChallengesData')
-            if not os.path.exists('seasonalData/seasonChallengesData/seasonChallengeRewardImages'):
-                os.makedirs('seasonalData/seasonChallengesData/seasonChallengeRewardImages')
-        if not os.path.exists('seasonalData/seasonPassData'):
-            os.makedirs('seasonalData/seasonPassData')
+    # delete the previous seasonalData folder if it exists
+    if os.path.exists('seasonalData'):
+        shutil.rmtree('seasonalData')
+
+    # Create the various folders we'll output to
+    os.makedirs('seasonalData')
+    os.makedirs('seasonalData/seasonChallengesData')
+    os.makedirs('seasonalData/seasonChallengesData/seasonChallengeRewardImages')
+    os.makedirs('seasonalData/seasonPassData')
+    os.makedirs('seasonalData/seasonPassData/seasonPassImages')
 
     # writing the season pass data
     # iterating through the free and premium rank rewards
+    # constructing the json for the seasonPassData.json file as we go (a dict we'll convert to json at the end)
+    seasonPassDataJSON = {}
     for rankReward in freeRankRewards:
         rankNumber = rankReward[0]
         itemQuantity = rankReward[2]
@@ -151,8 +155,17 @@ def seasonScrape (seasonName, manifestLocation):
         # download the image to the seasonPassImages folder & name it with the metadata via requests
         response = requests.get(itemImageUrl)
         if response.status_code == 200:
-            with open('seasonalData/seasonPassData/seasonPassImages/rank' + str(rankNumber) + '_free_' + itemName + '_' + str(itemQuantity) + '.jpg', 'wb') as f:
+            with open('seasonalData/seasonPassData/seasonPassImages/rank' + str(rankNumber) + '_free' + '.jpg', 'wb') as f:
                 f.write(response.content)
+            # add the image metadata to the seasonPassDataJSON
+            seasonPassDataJSON['rank' + str(rankNumber) + '_free'] = {
+                'fileName': 'rank' + str(rankNumber) + '_free' + '.jpg', # the file name will be the same as the key, but with '.jpg' appended
+                'rank': str(rankNumber),
+                'freeOrPremium': 'free',
+                'itemName': itemName, 
+                'itemDescription': itemDescription, 
+                'itemQuantity': str(itemQuantity)
+                }
         else:
             print("Error: image download failed for item: " + itemName + " with url: " + itemImageUrl)
             exit(1)
@@ -167,12 +180,24 @@ def seasonScrape (seasonName, manifestLocation):
         # download the image to the seasonPassImages folder & name it with the metadata via requests
         response = requests.get(itemImageUrl)
         if response.status_code == 200:
-            with open('seasonalData/seasonPassData/seasonPassImages/rank' + str(rankNumber) + '_premium_' + itemName + '_' + str(itemQuantity) + '.jpg', 'wb') as f:
+            with open('seasonalData/seasonPassData/seasonPassImages/rank' + str(rankNumber) + '_premium' + '.jpg', 'wb') as f:
                 f.write(response.content)
+            # add the image metadata to the seasonPassDataJSON
+            seasonPassDataJSON['rank' + str(rankNumber) + '_premium'] = {
+                'fileName': 'rank' + str(rankNumber) + '_premium' + '.jpg', # the file name will be the same as the key, but with '.jpg' appended
+                'rank': str(rankNumber),
+                'freeOrPremium': 'premium',
+                'itemName': itemName, 
+                'itemDescription': itemDescription, 
+                'itemQuantity': str(itemQuantity)
+                }
         else:
             print("Error: image download failed for item: " + itemName + " with url: " + itemImageUrl)
             exit(1)
     
+    with open('seasonalData/seasonPassData/seasonPassData.json', 'w') as f:
+        f.write(jsonlib.dumps(seasonPassDataJSON, indent=4))
+
     # writing the weekly challenge data
     # check how many weeks of challenges we have within the data
     # this is done by checking for number of distinct weeks in the weeklyChallengeData
@@ -198,8 +223,8 @@ def seasonScrape (seasonName, manifestLocation):
             # we'll also check if the icon image for the item already exists, and if not, download it to the seasonChallengeRewardImages subfolder of the seasonChallengesData folder
             # objectives will have the name, startValue, and completionValue of the objective
             
-            # construct the json as we read through the curWeekChallenges
-            json = '['
+            # construct the json dict as we read through the curWeekChallenges
+            weeklyChallengeJSON = {}
             for weeklyChallenge in curWeekChallenges:
                 # get the challenge info
                 challengeName = weeklyChallenge[1]
@@ -207,7 +232,13 @@ def seasonScrape (seasonName, manifestLocation):
                 challengeRewardItemsData = weeklyChallenge[3]
                 challengeObjectivesHashes = weeklyChallenge[4]
                 # add the challenge info to the json
-                json += '{"name":"' + challengeName + '","description":"' + challengeDescription + '","rewardItems":['
+                weeklyChallengeJSON[challengeName] = {
+                    'name': challengeName,
+                    'week': str(week),
+                    'description': challengeDescription,
+                    'rewardItems': [],
+                    'objectives': []
+                }
                 # iterate through the reward items
                 for rewardItemData in challengeRewardItemsData:
                     rewardItemInfo = getRewardItemInfo(session, rewardItemData[0])
@@ -226,23 +257,26 @@ def seasonScrape (seasonName, manifestLocation):
                             print("Error: image download failed for item: " + rewardItemName + " with url: " + rewardItemIconUrl)
                             exit(1)
                     # add the reward item info to the json
-                    json += '{"name":"' + rewardItemName + '","description":"' + rewardItemDescription + '","quantity":' + str(rewardItemQuantity) + '},'
-                # remove the last comma
-                json = json[:-1]
-                # add the objectives info to the json
-                json += '],"objectives":['
+                    weeklyChallengeJSON[challengeName]['rewardItems'].append({
+                        'name': rewardItemName,
+                        'description': rewardItemDescription,
+                        'quantity': str(rewardItemQuantity)
+                    })
                 for objectiveHash in challengeObjectivesHashes:
                     objectiveInfo = getObjectiveInfo(session, objectiveHash)
                     objectiveName = objectiveInfo[0]
                     objectiveStartValue = objectiveInfo[1]
                     objectiveCompletionValue = objectiveInfo[2]
                     # add the objective info to the json
-                    json += '{"name":"' + objectiveName + '","startValue":' + str(objectiveStartValue) + ',"completionValue":' + str(objectiveCompletionValue) + '},'
-                # remove the last comma
-                json = json[:-1]
-                # add the end of the challenge object to the json
-                json += ']},'
-        
+                    weeklyChallengeJSON[challengeName]['objectives'].append({
+                        'name': objectiveName,
+                        'startValue': str(objectiveStartValue),
+                        'completionValue': str(objectiveCompletionValue)
+                    })
+            # write the json to the file
+            with open('seasonalData/seasonChallengesData/' + str(week) + '.json', 'w') as f:
+                f.write(jsonlib.dumps(weeklyChallengeJSON, indent=4))
+
 def getSeasonData (session, seasonName):
     # this function will get the season's data from the manifest using the season name
     # to do so we look in the DestinySeasonDefinition table for the row with the right name within the json
@@ -277,7 +311,7 @@ def getRewardItemInfo (session, rewardItemHash):
     # to do so we look in the DestinyInventoryItemDefinition table for the row with the right hash within the json
 
     # find a row with the correct hash in the json
-    row = session.query(DestinyInventoryItemDefinition).filter(DestinyInventoryItemDefinition.json['hash'] == rewardItemHash).first()
+    row = session.query(DestinyInventoryItemDefinition).filter(DestinyInventoryItemDefinition.json['hash'] == str(rewardItemHash)).first()
     # if we didn't find a matching row, error
     if row == None:
         print("Error: reward item hash not found in manifest:" + str(rewardItemHash))
@@ -294,7 +328,7 @@ def getObjectiveInfo (session, objectiveHash):
     # to do so we look in the DestinyObjectiveDefinition table for the row with the right hash within the json
 
     # find a row with the correct hash in the json
-    row = session.query(DestinyObjectiveDefinition).filter(DestinyObjectiveDefinition.json['hash'] == objectiveHash).first()
+    row = session.query(DestinyObjectiveDefinition).filter(DestinyObjectiveDefinition.json['hash'] == str(objectiveHash)).first()
     # if we didn't find a matching row, error
     if row == None:
         print("Error: objective hash not found in manifest:" + str(objectiveHash))
@@ -312,7 +346,10 @@ if __name__ == "__main__":
 
     # if debug is true, we'll use the default values for the arguments
     seasonName = "Season of the Deep"
-    manifestLocation = "seasonal-script/manifest.sqlite3"
+    manifestLocation = "manifest.sqlite3"
+
+    # and to handle the vscode debugger's not starting the working directory in the right place
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
     if not debug:
         if len(sys.argv) != 3:

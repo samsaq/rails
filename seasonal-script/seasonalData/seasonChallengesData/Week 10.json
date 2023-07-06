@@ -1,0 +1,117 @@
+{
+    "Wicked Depths": {
+        "name": "Wicked Depths",
+        "week": "Week 10",
+        "description": "Complete the Whetstone encounter in Deep Dives and earn the Wicked Implement Scout Rifle.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "",
+                "startValue": "0",
+                "completionValue": "1"
+            }
+        ]
+    },
+    "Neptune Activities": {
+        "name": "Neptune Activities",
+        "week": "Week 10",
+        "description": "In Neomuna, complete bounties, patrols, public events, and Lost Sectors.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "18"
+            }
+        ]
+    },
+    "Sparks of Arc": {
+        "name": "Sparks of Arc",
+        "week": "Week 10",
+        "description": "Defeat Guardians in Crucible matches with the Arc subclass equipped. Bonus progress is granted for defeating blinded opponents.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "25"
+            }
+        ]
+    },
+    "Special Measures": {
+        "name": "Special Measures",
+        "week": "Week 10",
+        "description": "Defeat targets in Gambit with weapons using Special ammo. Bonus progress is granted for defeating Guardians and landing final blows with Glaives and Hand Cannons using Special ammo.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "100"
+            }
+        ]
+    },
+    "Tried and True": {
+        "name": "Tried and True",
+        "week": "Week 10",
+        "description": "Defeat combatants in Vanguard playlists or strikes with Primary ammo. Bonus progress is granted for more challenging combatants.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "300"
+            }
+        ]
+    }
+}

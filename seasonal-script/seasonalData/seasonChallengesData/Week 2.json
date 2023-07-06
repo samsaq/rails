@@ -1,0 +1,227 @@
+{
+    "Into the Depths II": {
+        "name": "Into the Depths II",
+        "week": "Week 2",
+        "description": "Complete the Week 2 \"Into the Depths\" mission.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "",
+                "startValue": "0",
+                "completionValue": "2"
+            }
+        ]
+    },
+    "Front Line Salvager II": {
+        "name": "Front Line Salvager II",
+        "week": "Week 2",
+        "description": "Open chests in Salvage. Redeeming Salvage Keys grants additional progress.\n\nAdditionally, defeat Taken anywhere in the system.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Salvage Chests",
+                "startValue": "0",
+                "completionValue": "3"
+            },
+            {
+                "name": "Taken",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    },
+    "Powerful Salvager": {
+        "name": "Powerful Salvager",
+        "week": "Week 2",
+        "description": "Defeat powerful combatants in Salvage activities.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Powerful combatants",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    },
+    "Antithetical Armaments": {
+        "name": "Antithetical Armaments",
+        "week": "Week 2",
+        "description": "Defeat targets with Shotguns or Sniper Rifles. Defeated Guardians or defeated combatants in Salvage or Deep Dive activities grant additional progress.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "[Shotgun] or [Sniper Rifle] final blows",
+                "startValue": "0",
+                "completionValue": "150"
+            }
+        ]
+    },
+    "Throne World Activities": {
+        "name": "Throne World Activities",
+        "week": "Week 2",
+        "description": "In the Throne World, complete bounties and earn progress by completing patrols, public events, and looting Lost Sectors.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "18"
+            }
+        ]
+    },
+    "Lost in the Legend": {
+        "name": "Lost in the Legend",
+        "week": "Week 2",
+        "description": "Complete a Lost Sector on Legend or higher.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Lost Sectors",
+                "startValue": "0",
+                "completionValue": "1"
+            }
+        ]
+    },
+    "Flourish of Power": {
+        "name": "Flourish of Power",
+        "week": "Week 2",
+        "description": "Defeat Guardians in the Mayhem playlist with Super abilities.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Guardians",
+                "startValue": "0",
+                "completionValue": "25"
+            }
+        ]
+    },
+    "Primeval Entourage": {
+        "name": "Primeval Entourage",
+        "week": "Week 2",
+        "description": "Defeat Taken in Gambit. Earn bonus progress for defeating tougher combatants.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Taken",
+                "startValue": "0",
+                "completionValue": "100"
+            }
+        ]
+    },
+    "Taken Decimator": {
+        "name": "Taken Decimator",
+        "week": "Week 2",
+        "description": "Defeat Taken combatants in Vanguard playlists or strikes. Earn bonus progress for defeating tougher combatants.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Taken",
+                "startValue": "0",
+                "completionValue": "200"
+            }
+        ]
+    },
+    "Calibrate Long Range": {
+        "name": "Calibrate Long Range",
+        "week": "Week 2",
+        "description": "Calibrate long-range weapons\u2014Pulse Rifles, Bows, and Trace Rifles. Bonus progress is granted for defeating Guardians.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Calibration",
+                "startValue": "0",
+                "completionValue": "100"
+            }
+        ]
+    }
+}

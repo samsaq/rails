@@ -1,0 +1,136 @@
+{
+    "Front Line Salvager VII": {
+        "name": "Front Line Salvager VII",
+        "week": "Week 7",
+        "description": "Complete Salvage or Deep Dive activities while wearing Season of the Deep armor.\n\nAdditionally, defeat bosses and minibosses anywhere in the system.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Seasonal activities",
+                "startValue": "0",
+                "completionValue": "3"
+            },
+            {
+                "name": "Bosses and Minibosses",
+                "startValue": "0",
+                "completionValue": "10"
+            }
+        ]
+    },
+    "Salvage Legend": {
+        "name": "Salvage Legend",
+        "week": "Week 7",
+        "description": "Complete Salvage on Legend difficulty.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "",
+                "startValue": "0",
+                "completionValue": "1"
+            }
+        ]
+    },
+    "Salvaged Munitions": {
+        "name": "Salvaged Munitions",
+        "week": "Week 7",
+        "description": "Defeat targets with Seasonal weapons. Defeated Guardians or combatants defeated in Salvage or Deep Dive activities grant additional progress.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Targets defeated",
+                "startValue": "0",
+                "completionValue": "300"
+            }
+        ]
+    },
+    "Fleeting Glory": {
+        "name": "Fleeting Glory",
+        "week": "Week 7",
+        "description": "Complete Crucible matches in the Competitive playlist. Earn bonus progress for wins.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "8"
+            }
+        ]
+    },
+    "High-Value Hunter": {
+        "name": "High-Value Hunter",
+        "week": "Week 7",
+        "description": "Defeat powerful combatants in Gambit. Earn bonus progress for defeating high-value targets.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Targets",
+                "startValue": "0",
+                "completionValue": "150"
+            }
+        ]
+    },
+    "Grandmaster": {
+        "name": "Grandmaster",
+        "week": "Week 7",
+        "description": "Complete any Nightfall strike on Grandmaster.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Nightfall",
+                "startValue": "0",
+                "completionValue": "1"
+            }
+        ]
+    }
+}

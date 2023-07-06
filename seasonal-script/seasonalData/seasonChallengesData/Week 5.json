@@ -1,0 +1,179 @@
+{
+    "Into the Depths V": {
+        "name": "Into the Depths V",
+        "week": "Week 5",
+        "description": "Complete the Week 5 \"Into the Depths\" mission.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "",
+                "startValue": "0",
+                "completionValue": "5"
+            }
+        ]
+    },
+    "Front Line Salvager V": {
+        "name": "Front Line Salvager V",
+        "week": "Week 5",
+        "description": "Complete 8 bounties from the Sonar Station in the H.E.L.M.\n\nAdditionally, defeat powerful combatants anywhere in the system.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Bounties",
+                "startValue": "0",
+                "completionValue": "8"
+            },
+            {
+                "name": "Powerful combatants",
+                "startValue": "0",
+                "completionValue": "25"
+            }
+        ]
+    },
+    "Heavy Salvager": {
+        "name": "Heavy Salvager",
+        "week": "Week 5",
+        "description": "Defeat combatants with Power weapons in Salvage activities.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Power weapon",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    },
+    "Prepared for War": {
+        "name": "Prepared for War",
+        "week": "Week 5",
+        "description": "Defeat targets with Hand Cannons or Pulse Rifles. Defeated Guardians or combatants defeated in Salvage or Deep Dive activities grant additional progress.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "[Hand Cannon] or [Pulse Rifle] final blows",
+                "startValue": "0",
+                "completionValue": "300"
+            }
+        ]
+    },
+    "Battle Rhythm": {
+        "name": "Battle Rhythm",
+        "week": "Week 5",
+        "description": "Defeat targets anywhere in the system while using Auto Rifles, Hand Cannons, Scout Rifles, Glaives, or Linear Fusion Rifles. Bonus progress is granted for defeating Guardians.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "150"
+            }
+        ]
+    },
+    "Gotta Win Them All": {
+        "name": "Gotta Win Them All",
+        "week": "Week 5",
+        "description": "Complete activities in Vanguard, Gambit, or Crucible playlists. Bonus progress is granted for completing Vanguard playlist activities at Hero difficulty or higher, or for winning Gambit or Crucible matches.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "15"
+            }
+        ]
+    },
+    "Iron Sharpens Iron": {
+        "name": "Iron Sharpens Iron",
+        "week": "Week 5",
+        "description": "Complete Iron Banner matches. Earn bonus progress for wins.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "15"
+            }
+        ]
+    },
+    "Flood Tide": {
+        "name": "Flood Tide",
+        "week": "Week 5",
+        "description": "Acquire Last Rite.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "[Scout Rifle] Scout Rifle",
+                "startValue": "0",
+                "completionValue": "1"
+            }
+        ]
+    }
+}

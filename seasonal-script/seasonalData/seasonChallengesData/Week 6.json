@@ -1,0 +1,184 @@
+{
+    "Into the Depths VI": {
+        "name": "Into the Depths VI",
+        "week": "Week 6",
+        "description": "Complete the Week 6 \"Into the Depths\" mission.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "",
+                "startValue": "0",
+                "completionValue": "6"
+            }
+        ]
+    },
+    "Front Line Salvager VI": {
+        "name": "Front Line Salvager VI",
+        "week": "Week 6",
+        "description": "Open chests in Deep Dive activities. Redeeming Deep Dive Keys grants bonus progress.\n\nAdditionally, defeat targets with Void damage anywhere in the system. Guardians grant increased progress.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Deep Dive Chests",
+                "startValue": "0",
+                "completionValue": "3"
+            },
+            {
+                "name": "[Void] Void",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    },
+    "Under Pressure": {
+        "name": "Under Pressure",
+        "week": "Week 6",
+        "description": "Successfully complete a Pressure Trial encounter at any depth in a Deep Dive activity.\n\nAdditionally, defeat bosses and minibosses in Deep Dive activities.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Pressure Trial",
+                "startValue": "0",
+                "completionValue": "1"
+            },
+            {
+                "name": "Bosses and Minibosses",
+                "startValue": "0",
+                "completionValue": "7"
+            }
+        ]
+    },
+    "Go Big (Fish) or Go Home": {
+        "name": "Go Big (Fish) or Go Home",
+        "week": "Week 6",
+        "description": "Catch large or bigger fish at any Fish Pond.\n\nFish must be at least 18kg to be considered large.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Large fish",
+                "startValue": "0",
+                "completionValue": "15"
+            }
+        ]
+    },
+    "Round and Round We Go": {
+        "name": "Round and Round We Go",
+        "week": "Week 6",
+        "description": "Generate Orbs of Power in Vanguard, Gambit, or Crucible playlists.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Orbs of Power",
+                "startValue": "0",
+                "completionValue": "200"
+            }
+        ]
+    },
+    "The Deep End": {
+        "name": "The Deep End",
+        "week": "Week 6",
+        "description": "Defeat opponents in the Crucible with Auto Rifles, Hand Cannons, Scout Rifles, Glaives, or Linear Fusion Rifles.\n\nAdditional progress is granted for landing final blows with Glaives, Linear Fusion Rifles, and Hand Cannons that use Special ammo.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Guardians",
+                "startValue": "0",
+                "completionValue": "100"
+            }
+        ]
+    },
+    "Boss Battle": {
+        "name": "Boss Battle",
+        "week": "Week 6",
+        "description": "Defeat bosses in strikes or Vanguard playlists.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Bosses",
+                "startValue": "0",
+                "completionValue": "10"
+            }
+        ]
+    },
+    "Absolutely Stunning": {
+        "name": "Absolutely Stunning",
+        "week": "Week 6",
+        "description": "Stun Champions.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Champions",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    }
+}

@@ -1,0 +1,232 @@
+{
+    "Into the Depths I": {
+        "name": "Into the Depths I",
+        "week": "Week 1",
+        "description": "Complete the Week 1 \"Into the Depths\" mission.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "",
+                "startValue": "0",
+                "completionValue": "1"
+            }
+        ]
+    },
+    "Front Line Salvager I": {
+        "name": "Front Line Salvager I",
+        "week": "Week 1",
+        "description": "Complete Salvage or Deep Dive activities while using an Arc or Strand subclass.\n\nAdditionally, defeat Fallen anywhere in the system.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Seasonal activities",
+                "startValue": "0",
+                "completionValue": "3"
+            },
+            {
+                "name": "Fallen",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    },
+    "Successful Salvager": {
+        "name": "Successful Salvager",
+        "week": "Week 1",
+        "description": "Successfully complete jobs in Salvage activities.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Jobs",
+                "startValue": "0",
+                "completionValue": "5"
+            }
+        ]
+    },
+    "The One That Didn't Get Away": {
+        "name": "The One That Didn't Get Away",
+        "week": "Week 1",
+        "description": "Catch fish at any Fish Pond.\n\nAdditionally, complete public events on any destination.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Fish",
+                "startValue": "0",
+                "completionValue": "50"
+            },
+            {
+                "name": "Public events",
+                "startValue": "0",
+                "completionValue": "2"
+            }
+        ]
+    },
+    "EDZ Activities": {
+        "name": "EDZ Activities",
+        "week": "Week 1",
+        "description": "In the EDZ, earn progress by completing bounties, patrols, public events, and Lost Sectors.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "18"
+            }
+        ]
+    },
+    "Taking All Challenges": {
+        "name": "Taking All Challenges",
+        "week": "Week 1",
+        "description": "Complete weekly playlist challenges.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Challenges",
+                "startValue": "0",
+                "completionValue": "3"
+            }
+        ]
+    },
+    "Spark Defender": {
+        "name": "Spark Defender",
+        "week": "Week 1",
+        "description": "Score points in Rift. Bonus progress is awarded for igniting the Rift.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Points",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    },
+    "Standard Issue": {
+        "name": "Standard Issue",
+        "week": "Week 1",
+        "description": "Defeat targets in Gambit with Primary ammo. Bonus progress is granted for using Auto Rifles, Hand Cannons, and Scout Rifles. Bonus progress also is granted for defeating Guardians.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "100"
+            }
+        ]
+    },
+    "The Fallen Fall": {
+        "name": "The Fallen Fall",
+        "week": "Week 1",
+        "description": "Defeat Fallen combatants in Vanguard playlists or strikes. Earn bonus progress for defeating tougher combatants.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Fallen",
+                "startValue": "0",
+                "completionValue": "200"
+            }
+        ]
+    },
+    "Calibrate Close Range": {
+        "name": "Calibrate Close Range",
+        "week": "Week 1",
+        "description": "Calibrate close-range weapons\u2014Sidearms, Submachine Guns, Shotguns, Glaives, and Swords. Bonus progress for defeating Guardians.",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Calibration",
+                "startValue": "0",
+                "completionValue": "200"
+            }
+        ]
+    }
+}
