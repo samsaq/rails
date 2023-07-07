@@ -141,6 +141,16 @@ def seasonScrape (seasonName, manifestLocation):
     os.makedirs('seasonalData/seasonPassData')
     os.makedirs('seasonalData/seasonPassData/seasonPassImages')
 
+    # download the season pass icon to the seasonalData folder
+    seasonIconUrl = baseUrl + seasonData['displayProperties']['icon']
+    response = requests.get(seasonIconUrl)
+    if response.status_code == 200:
+        with open('seasonalData/seasonIcon.jpg', 'wb') as f:
+            f.write(response.content)
+    else:
+        print("Error: seasonal icon download failed")
+        exit(1)
+
     # writing the season pass data
     # iterating through the free and premium rank rewards
     # constructing the json for the seasonPassData.json file as we go (a dict we'll convert to json at the end)
