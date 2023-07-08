@@ -3,6 +3,7 @@
         "name": "Super Salvager",
         "week": "Week 8",
         "description": "Defeat combatants with Super abilities in Salvage activities.",
+        "icon": "Super Salvager.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -22,6 +23,7 @@
         "name": "Treasures from the Deep",
         "week": "Week 8",
         "description": "Complete a Deep Dive activity with the highest tier reward bonus.",
+        "icon": "Treasures from the Deep.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",
@@ -41,6 +43,7 @@
         "name": "Commendable Diver",
         "week": "Week 8",
         "description": "Give or receive commendations in matchmade Deep Dive activities.",
+        "icon": "Commendable Diver.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -60,6 +63,7 @@
         "name": "Pinnacle",
         "week": "Week 8",
         "description": "Reach Power Level {var:1131227462} by earning pinnacle rewards.",
+        "icon": "Pinnacle.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+++",
@@ -84,6 +88,7 @@
         "name": "Trial by Firing Squad",
         "week": "Week 8",
         "description": "Win multiple rounds in the Trials of Osiris.",
+        "icon": "Trial by Firing Squad.jpg",
         "rewardItems": [
             {
                 "name": "Trials of Osiris Weapon",
@@ -113,6 +118,7 @@
         "name": "Broadside",
         "week": "Week 8",
         "description": "Defeat targets in Gambit with Power Weapons. Bonus progress is granted for final blows with Linear Fusion Rifles and for defeating Guardians.",
+        "icon": "Broadside.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -137,6 +143,7 @@
         "name": "Implements of War",
         "week": "Week 8",
         "description": "Defeat targets with Auto Rifles, Hand Cannons, Scout Rifles, Glaives, and Linear Fusion Rifles. Bonus progress is granted for defeating Guardians.",
+        "icon": "Implements of War.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",

@@ -3,6 +3,7 @@
         "name": "Into the Depths III",
         "week": "Week 3",
         "description": "Complete the Week 3 \"Into the Depths\" mission.",
+        "icon": "Into the Depths III.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -22,6 +23,7 @@
         "name": "Front Line Salvager III",
         "week": "Week 3",
         "description": "Complete Salvage or Deep Dive activities while wielding any Season of the Deep weapon.\n\nAdditionally, defeat targets with Arc or Strand damage anywhere in the system. Guardians grant additional progress.",
+        "icon": "Front Line Salvager III.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -46,6 +48,7 @@
         "name": "Depth Charge",
         "week": "Week 3",
         "description": "Defeat bosses in Salvage activities.",
+        "icon": "Depth Charge.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -65,6 +68,7 @@
         "name": "Short-Range Salvager",
         "week": "Week 3",
         "description": "Defeat targets with Submachine Guns or Swords. Defeated Guardians or combatants defeated in Salvage or Deep Dive activities grant additional progress.",
+        "icon": "Short-Range Salvager.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -84,6 +88,7 @@
         "name": "Nessus Activities",
         "week": "Week 3",
         "description": "On Nessus, earn progress by completing bounties, patrols, public events, and Lost Sectors.",
+        "icon": "Nessus Activities.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -108,6 +113,7 @@
         "name": "Commendation Appreciation",
         "week": "Week 3",
         "description": "Earn progress for giving commendations in Vanguard, Crucible, and Gambit activities.",
+        "icon": "Commendation Appreciation.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -132,6 +138,7 @@
         "name": "Cosmic Churn",
         "week": "Week 3",
         "description": "Defeat Guardians in Crucible. Bonus progress is granted for opponents defeated with Arc, Strand, and Void ability final blows.",
+        "icon": "Cosmic Churn.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",
@@ -156,6 +163,7 @@
         "name": "Bank, Kill, Repeat",
         "week": "Week 3",
         "description": "Earn points by banking Motes, defeating Blockers, and defeating Guardians in Gambit.",
+        "icon": "Bank, Kill, Repeat.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -180,6 +188,7 @@
         "name": "Ultimate Champion",
         "week": "Week 3",
         "description": "Defeat Champions in any Nightfall strike on Hero difficulty or higher. Earn bonus progress at higher difficulty tiers.",
+        "icon": "Ultimate Champion.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -204,6 +213,7 @@
         "name": "Mid-Range Calibration",
         "week": "Week 3",
         "description": "Calibrate mid-range weapons\u2014Hand Cannons, Glaives, Auto Rifles, Fusion Rifles, and Machine Guns. Bonus progress is granted for defeating Guardians.",
+        "icon": "Mid-Range Calibration.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",

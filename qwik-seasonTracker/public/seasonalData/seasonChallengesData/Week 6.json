@@ -3,6 +3,7 @@
         "name": "Into the Depths VI",
         "week": "Week 6",
         "description": "Complete the Week 6 \"Into the Depths\" mission.",
+        "icon": "Into the Depths VI.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -22,6 +23,7 @@
         "name": "Front Line Salvager VI",
         "week": "Week 6",
         "description": "Open chests in Deep Dive activities. Redeeming Deep Dive Keys grants bonus progress.\n\nAdditionally, defeat targets with Void damage anywhere in the system. Guardians grant increased progress.",
+        "icon": "Front Line Salvager VI.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -46,6 +48,7 @@
         "name": "Under Pressure",
         "week": "Week 6",
         "description": "Successfully complete a Pressure Trial encounter at any depth in a Deep Dive activity.\n\nAdditionally, defeat bosses and minibosses in Deep Dive activities.",
+        "icon": "Under Pressure.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -70,6 +73,7 @@
         "name": "Go Big (Fish) or Go Home",
         "week": "Week 6",
         "description": "Catch large or bigger fish at any Fish Pond.\n\nFish must be at least 18kg to be considered large.",
+        "icon": "Go Big (Fish) or Go Home.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -89,6 +93,7 @@
         "name": "Round and Round We Go",
         "week": "Week 6",
         "description": "Generate Orbs of Power in Vanguard, Gambit, or Crucible playlists.",
+        "icon": "Round and Round We Go.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -113,6 +118,7 @@
         "name": "The Deep End",
         "week": "Week 6",
         "description": "Defeat opponents in the Crucible with Auto Rifles, Hand Cannons, Scout Rifles, Glaives, or Linear Fusion Rifles.\n\nAdditional progress is granted for landing final blows with Glaives, Linear Fusion Rifles, and Hand Cannons that use Special ammo.",
+        "icon": "The Deep End.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",
@@ -137,6 +143,7 @@
         "name": "Boss Battle",
         "week": "Week 6",
         "description": "Defeat bosses in strikes or Vanguard playlists.",
+        "icon": "Boss Battle.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",
@@ -161,6 +168,7 @@
         "name": "Absolutely Stunning",
         "week": "Week 6",
         "description": "Stun Champions.",
+        "icon": "Absolutely Stunning.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+++",

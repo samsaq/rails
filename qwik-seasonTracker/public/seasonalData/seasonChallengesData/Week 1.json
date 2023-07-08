@@ -3,6 +3,7 @@
         "name": "Into the Depths I",
         "week": "Week 1",
         "description": "Complete the Week 1 \"Into the Depths\" mission.",
+        "icon": "Into the Depths I.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -22,6 +23,7 @@
         "name": "Front Line Salvager I",
         "week": "Week 1",
         "description": "Complete Salvage or Deep Dive activities while using an Arc or Strand subclass.\n\nAdditionally, defeat Fallen anywhere in the system.",
+        "icon": "Front Line Salvager I.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -46,6 +48,7 @@
         "name": "Successful Salvager",
         "week": "Week 1",
         "description": "Successfully complete jobs in Salvage activities.",
+        "icon": "Successful Salvager.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -65,6 +68,7 @@
         "name": "The One That Didn't Get Away",
         "week": "Week 1",
         "description": "Catch fish at any Fish Pond.\n\nAdditionally, complete public events on any destination.",
+        "icon": "The One That Didn't Get Away.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -89,6 +93,7 @@
         "name": "EDZ Activities",
         "week": "Week 1",
         "description": "In the EDZ, earn progress by completing bounties, patrols, public events, and Lost Sectors.",
+        "icon": "EDZ Activities.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -113,6 +118,7 @@
         "name": "Taking All Challenges",
         "week": "Week 1",
         "description": "Complete weekly playlist challenges.",
+        "icon": "Taking All Challenges.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -137,6 +143,7 @@
         "name": "Spark Defender",
         "week": "Week 1",
         "description": "Score points in Rift. Bonus progress is awarded for igniting the Rift.",
+        "icon": "Spark Defender.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -161,6 +168,7 @@
         "name": "Standard Issue",
         "week": "Week 1",
         "description": "Defeat targets in Gambit with Primary ammo. Bonus progress is granted for using Auto Rifles, Hand Cannons, and Scout Rifles. Bonus progress also is granted for defeating Guardians.",
+        "icon": "Standard Issue.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -185,6 +193,7 @@
         "name": "The Fallen Fall",
         "week": "Week 1",
         "description": "Defeat Fallen combatants in Vanguard playlists or strikes. Earn bonus progress for defeating tougher combatants.",
+        "icon": "The Fallen Fall.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -209,6 +218,7 @@
         "name": "Calibrate Close Range",
         "week": "Week 1",
         "description": "Calibrate close-range weapons\u2014Sidearms, Submachine Guns, Shotguns, Glaives, and Swords. Bonus progress for defeating Guardians.",
+        "icon": "Calibrate Close Range.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",

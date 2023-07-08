@@ -3,6 +3,7 @@
         "name": "Front Line Salvager VII",
         "week": "Week 7",
         "description": "Complete Salvage or Deep Dive activities while wearing Season of the Deep armor.\n\nAdditionally, defeat bosses and minibosses anywhere in the system.",
+        "icon": "Front Line Salvager VII.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -27,6 +28,7 @@
         "name": "Salvage Legend",
         "week": "Week 7",
         "description": "Complete Salvage on Legend difficulty.",
+        "icon": "Salvage Legend.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -46,6 +48,7 @@
         "name": "Salvaged Munitions",
         "week": "Week 7",
         "description": "Defeat targets with Seasonal weapons. Defeated Guardians or combatants defeated in Salvage or Deep Dive activities grant additional progress.",
+        "icon": "Salvaged Munitions.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -65,6 +68,7 @@
         "name": "Fleeting Glory",
         "week": "Week 7",
         "description": "Complete Crucible matches in the Competitive playlist. Earn bonus progress for wins.",
+        "icon": "Fleeting Glory.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",
@@ -89,6 +93,7 @@
         "name": "High-Value Hunter",
         "week": "Week 7",
         "description": "Defeat powerful combatants in Gambit. Earn bonus progress for defeating high-value targets.",
+        "icon": "High-Value Hunter.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+++",
@@ -113,6 +118,7 @@
         "name": "Grandmaster",
         "week": "Week 7",
         "description": "Complete any Nightfall strike on Grandmaster.",
+        "icon": "Grandmaster.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+++",

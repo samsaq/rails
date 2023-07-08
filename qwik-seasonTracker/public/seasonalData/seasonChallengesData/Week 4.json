@@ -3,6 +3,7 @@
         "name": "Into the Depths IV",
         "week": "Week 4",
         "description": "Complete the Week 4 \"Into the Depths\" mission.",
+        "icon": "Into the Depths IV.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -22,6 +23,7 @@
         "name": "Front Line Salvager IV",
         "week": "Week 4",
         "description": "Complete Salvage or Deep Dive activities while using a Void subclass.\n\nAdditionally, defeat Hive anywhere in the system.",
+        "icon": "Front Line Salvager IV.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -46,6 +48,7 @@
         "name": "Deep Diver",
         "week": "Week 4",
         "description": "Successfully complete encounters at any depth in Deep Dive activities. Pressure Trial encounters grant increased progress.",
+        "icon": "Deep Diver.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -65,6 +68,7 @@
         "name": "Commendable Salvager",
         "week": "Week 4",
         "description": "Give or receive commendations in matchmade Salvage activities.",
+        "icon": "Commendable Salvager.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -84,6 +88,7 @@
         "name": "Mod Collector",
         "week": "Week 4",
         "description": "Unlock artifact mods.",
+        "icon": "Mod Collector.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",
@@ -108,6 +113,7 @@
         "name": "Momentum Crash",
         "week": "Week 4",
         "description": "Defeat Guardians in Momentum Control. Earn bonus progress with Zone Advantage.",
+        "icon": "Momentum Crash.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -132,6 +138,7 @@
         "name": "Sound of Metal",
         "week": "Week 4",
         "description": "Defeat targets with Auto Rifles, Hand Cannons, and Scout Rifles in Gambit. Bonus progress is granted for defeating Guardians.",
+        "icon": "Sound of Metal.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",
@@ -166,6 +173,7 @@
         "name": "Darkest Nightfall",
         "week": "Week 4",
         "description": "Complete any Nightfall strike on Hero difficulty or higher.",
+        "icon": "Darkest Nightfall.jpg",
         "rewardItems": [
             {
                 "name": "Nightfall Weapon",
@@ -195,6 +203,7 @@
         "name": "Precision Calibration",
         "week": "Week 4",
         "description": "Calibrate marksman weapons\u2014Scout Rifles, Sniper Rifles, and Linear Fusion Rifles\u2014by landing precision final blows. Bonus progress against Guardians.",
+        "icon": "Precision Calibration.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",

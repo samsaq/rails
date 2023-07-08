@@ -94,6 +94,8 @@ def seasonScrape (seasonName, manifestLocation):
         # get the record's name and description
         challengeName = record.json['displayProperties']['name']
         challengeDescription = record.json['displayProperties']['description']
+        # get the challenge's icon url
+        challengeIconUrl = baseUrl + record.json['displayProperties']['icon']
         # get the record's rewardItemData
         rewardItemData = []
         for rewardItem in record.json['rewardItems']:
@@ -103,7 +105,7 @@ def seasonScrape (seasonName, manifestLocation):
         for objectiveHash in record.json['objectiveHashes']:
             challengeObjectiveHashes.append(objectiveHash)
         # add the challenge data to the weeklyChallengeData
-        weeklyChallengeData.append([week, challengeName, challengeDescription, rewardItemData, challengeObjectiveHashes])
+        weeklyChallengeData.append([week, challengeName, challengeIconUrl, challengeDescription, rewardItemData, challengeObjectiveHashes])
 
     # parse the seasonPassProgressionData to get an array of the free and premium season pass rank rewards
     # the free and premium rewards will be in seperate arrays of objects in the form [level, rewardItemHash, rewardItemQuantity]
@@ -138,6 +140,7 @@ def seasonScrape (seasonName, manifestLocation):
     os.makedirs('seasonalData')
     os.makedirs('seasonalData/seasonChallengesData')
     os.makedirs('seasonalData/seasonChallengesData/seasonChallengeRewardImages')
+    os.makedirs('seasonalData/seasonChallengesData/seasonChallengeIcons')
     os.makedirs('seasonalData/seasonPassData')
     os.makedirs('seasonalData/seasonPassData/seasonPassImages')
 
@@ -238,14 +241,25 @@ def seasonScrape (seasonName, manifestLocation):
             for weeklyChallenge in curWeekChallenges:
                 # get the challenge info
                 challengeName = weeklyChallenge[1]
-                challengeDescription = weeklyChallenge[2]
-                challengeRewardItemsData = weeklyChallenge[3]
-                challengeObjectivesHashes = weeklyChallenge[4]
+                challengeIconUrl = weeklyChallenge[2]
+                challengeDescription = weeklyChallenge[3]
+                challengeRewardItemsData = weeklyChallenge[4]
+                challengeObjectivesHashes = weeklyChallenge[5]
+
+                # download the challenge icon to the seasonChallengeIcons folder
+                response = requests.get(challengeIconUrl)
+                if response.status_code == 200:
+                    with open('seasonalData/seasonChallengesData/seasonChallengeIcons/' + challengeName + '.jpg', 'wb') as f:
+                        f.write(response.content)
+                else:
+                    print("Error: image download failed for challenge: " + challengeName + " with url: " + challengeIconUrl)
+                    exit(1)
                 # add the challenge info to the json
                 weeklyChallengeJSON[challengeName] = {
                     'name': challengeName,
                     'week': str(week),
                     'description': challengeDescription,
+                    'icon': challengeName + '.jpg',
                     'rewardItems': [],
                     'objectives': []
                 }

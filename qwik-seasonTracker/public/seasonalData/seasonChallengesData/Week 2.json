@@ -3,6 +3,7 @@
         "name": "Into the Depths II",
         "week": "Week 2",
         "description": "Complete the Week 2 \"Into the Depths\" mission.",
+        "icon": "Into the Depths II.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -22,6 +23,7 @@
         "name": "Front Line Salvager II",
         "week": "Week 2",
         "description": "Open chests in Salvage. Redeeming Salvage Keys grants additional progress.\n\nAdditionally, defeat Taken anywhere in the system.",
+        "icon": "Front Line Salvager II.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -46,6 +48,7 @@
         "name": "Powerful Salvager",
         "week": "Week 2",
         "description": "Defeat powerful combatants in Salvage activities.",
+        "icon": "Powerful Salvager.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -65,6 +68,7 @@
         "name": "Antithetical Armaments",
         "week": "Week 2",
         "description": "Defeat targets with Shotguns or Sniper Rifles. Defeated Guardians or defeated combatants in Salvage or Deep Dive activities grant additional progress.",
+        "icon": "Antithetical Armaments.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -84,6 +88,7 @@
         "name": "Throne World Activities",
         "week": "Week 2",
         "description": "In the Throne World, complete bounties and earn progress by completing patrols, public events, and looting Lost Sectors.",
+        "icon": "Throne World Activities.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -108,6 +113,7 @@
         "name": "Lost in the Legend",
         "week": "Week 2",
         "description": "Complete a Lost Sector on Legend or higher.",
+        "icon": "Lost in the Legend.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -132,6 +138,7 @@
         "name": "Flourish of Power",
         "week": "Week 2",
         "description": "Defeat Guardians in the Mayhem playlist with Super abilities.",
+        "icon": "Flourish of Power.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -156,6 +163,7 @@
         "name": "Primeval Entourage",
         "week": "Week 2",
         "description": "Defeat Taken in Gambit. Earn bonus progress for defeating tougher combatants.",
+        "icon": "Primeval Entourage.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -180,6 +188,7 @@
         "name": "Taken Decimator",
         "week": "Week 2",
         "description": "Defeat Taken combatants in Vanguard playlists or strikes. Earn bonus progress for defeating tougher combatants.",
+        "icon": "Taken Decimator.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -204,6 +213,7 @@
         "name": "Calibrate Long Range",
         "week": "Week 2",
         "description": "Calibrate long-range weapons\u2014Pulse Rifles, Bows, and Trace Rifles. Bonus progress is granted for defeating Guardians.",
+        "icon": "Calibrate Long Range.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",

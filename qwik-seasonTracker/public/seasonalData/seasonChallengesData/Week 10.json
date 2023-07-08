@@ -3,6 +3,7 @@
         "name": "Wicked Depths",
         "week": "Week 10",
         "description": "Complete the Whetstone encounter in Deep Dives and earn the Wicked Implement Scout Rifle.",
+        "icon": "Wicked Depths.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",
@@ -22,6 +23,7 @@
         "name": "Neptune Activities",
         "week": "Week 10",
         "description": "In Neomuna, complete bounties, patrols, public events, and Lost Sectors.",
+        "icon": "Neptune Activities.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -46,6 +48,7 @@
         "name": "Sparks of Arc",
         "week": "Week 10",
         "description": "Defeat Guardians in Crucible matches with the Arc subclass equipped. Bonus progress is granted for defeating blinded opponents.",
+        "icon": "Sparks of Arc.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -70,6 +73,7 @@
         "name": "Special Measures",
         "week": "Week 10",
         "description": "Defeat targets in Gambit with weapons using Special ammo. Bonus progress is granted for defeating Guardians and landing final blows with Glaives and Hand Cannons using Special ammo.",
+        "icon": "Special Measures.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP+",
@@ -94,6 +98,7 @@
         "name": "Tried and True",
         "week": "Week 10",
         "description": "Defeat combatants in Vanguard playlists or strikes with Primary ammo. Bonus progress is granted for more challenging combatants.",
+        "icon": "Tried and True.jpg",
         "rewardItems": [
             {
                 "name": "Challenger XP++",
