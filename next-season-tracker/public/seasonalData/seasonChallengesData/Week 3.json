@@ -1,0 +1,237 @@
+{
+    "Into the Depths III": {
+        "name": "Into the Depths III",
+        "week": "Week 3",
+        "description": "Complete the Week 3 \"Into the Depths\" mission.",
+        "icon": "Into the Depths III.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "",
+                "startValue": "0",
+                "completionValue": "3"
+            }
+        ]
+    },
+    "Front Line Salvager III": {
+        "name": "Front Line Salvager III",
+        "week": "Week 3",
+        "description": "Complete Salvage or Deep Dive activities while wielding any Season of the Deep weapon.\n\nAdditionally, defeat targets with Arc or Strand damage anywhere in the system. Guardians grant additional progress.",
+        "icon": "Front Line Salvager III.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Seasonal activities",
+                "startValue": "0",
+                "completionValue": "3"
+            },
+            {
+                "name": "[Arc] or [Strand] damage",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    },
+    "Depth Charge": {
+        "name": "Depth Charge",
+        "week": "Week 3",
+        "description": "Defeat bosses in Salvage activities.",
+        "icon": "Depth Charge.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Bosses",
+                "startValue": "0",
+                "completionValue": "5"
+            }
+        ]
+    },
+    "Short-Range Salvager": {
+        "name": "Short-Range Salvager",
+        "week": "Week 3",
+        "description": "Defeat targets with Submachine Guns or Swords. Defeated Guardians or combatants defeated in Salvage or Deep Dive activities grant additional progress.",
+        "icon": "Short-Range Salvager.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "[SMG] or [Sword] final blows",
+                "startValue": "0",
+                "completionValue": "300"
+            }
+        ]
+    },
+    "Nessus Activities": {
+        "name": "Nessus Activities",
+        "week": "Week 3",
+        "description": "On Nessus, earn progress by completing bounties, patrols, public events, and Lost Sectors.",
+        "icon": "Nessus Activities.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "18"
+            }
+        ]
+    },
+    "Commendation Appreciation": {
+        "name": "Commendation Appreciation",
+        "week": "Week 3",
+        "description": "Earn progress for giving commendations in Vanguard, Crucible, and Gambit activities.",
+        "icon": "Commendation Appreciation.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "10"
+            }
+        ]
+    },
+    "Cosmic Churn": {
+        "name": "Cosmic Churn",
+        "week": "Week 3",
+        "description": "Defeat Guardians in Crucible. Bonus progress is granted for opponents defeated with Arc, Strand, and Void ability final blows.",
+        "icon": "Cosmic Churn.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Guardians",
+                "startValue": "0",
+                "completionValue": "50"
+            }
+        ]
+    },
+    "Bank, Kill, Repeat": {
+        "name": "Bank, Kill, Repeat",
+        "week": "Week 3",
+        "description": "Earn points by banking Motes, defeating Blockers, and defeating Guardians in Gambit.",
+        "icon": "Bank, Kill, Repeat.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Points",
+                "startValue": "0",
+                "completionValue": "250"
+            }
+        ]
+    },
+    "Ultimate Champion": {
+        "name": "Ultimate Champion",
+        "week": "Week 3",
+        "description": "Defeat Champions in any Nightfall strike on Hero difficulty or higher. Earn bonus progress at higher difficulty tiers.",
+        "icon": "Ultimate Champion.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Champions",
+                "startValue": "0",
+                "completionValue": "60"
+            }
+        ]
+    },
+    "Mid-Range Calibration": {
+        "name": "Mid-Range Calibration",
+        "week": "Week 3",
+        "description": "Calibrate mid-range weapons\u2014Hand Cannons, Glaives, Auto Rifles, Fusion Rifles, and Machine Guns. Bonus progress is granted for defeating Guardians.",
+        "icon": "Mid-Range Calibration.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Calibration",
+                "startValue": "0",
+                "completionValue": "200"
+            }
+        ]
+    }
+}

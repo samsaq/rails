@@ -20,10 +20,6 @@ interface challengeProps { //component props
       }[];
 }
 
-interface challengeData { //type for the json data
-    
-}
-
 // take a given week and name and get the json data from the static file - edit & place within the bar component & pass down to the card component
 /*
 async function getChallengeData$(week: string, name: string): Promise<challengeData> {
@@ -37,10 +33,20 @@ async function getChallengeData$(week: string, name: string): Promise<challengeD
 
 export default component$<challengeProps>((props) => {
     
+    const icon = props.icon;
+    const iconRelativePath = "/seasonalData/seasonChallengesData/seasonChallengeIcons/" + icon;
+
     return (
         <>            
-            <div class="challenge-card">
-                
+            <div class="card w-96 bg-base-100 shadow-xl image-full">
+            <figure><img src={iconRelativePath} width={84} height={84} /></figure>
+            <div class="card-body">
+                <h2 class="card-title">Shoes!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
             </div>
         </>
     );

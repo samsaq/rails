@@ -1,0 +1,22 @@
+{
+    "Gills Acquired": {
+        "name": "Gills Acquired",
+        "week": "Seasonal",
+        "description": "Complete all Season of the Deep challenges.",
+        "icon": "Gills Acquired.jpg",
+        "rewardItems": [
+            {
+                "name": "Large Bright Dust Pile",
+                "description": "A large quantity of Bright Dust.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Challenges",
+                "startValue": "0",
+                "completionValue": "76"
+            }
+        ]
+    }
+}

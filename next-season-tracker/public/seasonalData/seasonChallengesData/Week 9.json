@@ -1,0 +1,142 @@
+{
+    "Rapid Salvager": {
+        "name": "Rapid Salvager",
+        "week": "Week 9",
+        "description": "Rapidly defeat combatants in Salvage activities.",
+        "icon": "Rapid Salvager.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Rapidly defeated",
+                "startValue": "0",
+                "completionValue": "30"
+            }
+        ]
+    },
+    "Patience Perfected": {
+        "name": "Patience Perfected",
+        "week": "Week 9",
+        "description": "Catch Legendary or Exotic fish at any Fish Pond.",
+        "icon": "Patience Perfected.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Legendary or Exotic fish",
+                "startValue": "0",
+                "completionValue": "5"
+            }
+        ]
+    },
+    "Ritual Ornament": {
+        "name": "Ritual Ornament",
+        "week": "Week 9",
+        "description": "Acquire any ornament for the Seasonal ritual weapon.",
+        "icon": "Ritual Ornament.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Weapon Ornament",
+                "startValue": "0",
+                "completionValue": "1"
+            }
+        ]
+    },
+    "Eyeing Iron": {
+        "name": "Eyeing Iron",
+        "week": "Week 9",
+        "description": "Complete Crucible matches. Earn bonus progress in Iron Banner and for victories.",
+        "icon": "Eyeing Iron.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "15"
+            }
+        ]
+    },
+    "Ethereal Might": {
+        "name": "Ethereal Might",
+        "week": "Week 9",
+        "description": "Defeat targets with an Arc, Strand, or Void subclass equipped in Gambit. Bonus progress is granted for ability final blows and defeating Guardians.",
+        "icon": "Ethereal Might.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "Progress",
+                "startValue": "0",
+                "completionValue": "200"
+            }
+        ]
+    },
+    "Rapid Precision": {
+        "name": "Rapid Precision",
+        "week": "Week 9",
+        "description": "Get rapid precision final blows. Bonus progress is granted for every defeated target after the second one.",
+        "icon": "Rapid Precision.jpg",
+        "rewardItems": [
+            {
+                "name": "Challenger XP+++",
+                "description": "",
+                "quantity": "1"
+            },
+            {
+                "name": "Bright Dust",
+                "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                "quantity": "1"
+            }
+        ],
+        "objectives": [
+            {
+                "name": "[Headshot] Rapidly defeated",
+                "startValue": "0",
+                "completionValue": "150"
+            }
+        ]
+    }
+}
