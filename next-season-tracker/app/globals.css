@@ -27,16 +27,16 @@ body {
 }
 
 @font-face {
-  font-family: "Neue Hass Grotesk Display";
-  src: url(/public/fonts/neue-haas-grotesk-display-pro-cufonfonts/NeueHaasDisplayMediu.ttf);
+  font-family: 'Neue Hass Grotesk Display';
+  src: '/public/fonts/neue-haas-grotesk-display-pro/NeueHaasDisplayMediu.ttf';
 }
 
 @font-face {
-  font-family: "Futura";
-  src: url(/public/fonts/futura/futur.ttf);
+  font-family: 'Futura';
+  src: '/public/fonts/futura/futur.ttf';
 }
 
 @font-face {
-  font-family: "Epoca Pro Medium Italic";
-  src: url(/public/fonts/epocapro/EpocaPro-MediumItalic.otf);
+  font-family: 'Epoca Pro Medium Italic';
+  src: '/public/fonts/epocapro/EpocaPro-MediumItalic.otf';
 }

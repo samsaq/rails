@@ -21,16 +21,14 @@ interface challengeProps {
 
 export default function ChallengeCard(props: challengeProps) {
   return (
-    <div className='flex aspect-square h-40 flex-col items-center border-2 border-solid border-accent-content'>
+    <div className='flex aspect-square w-32 flex-col items-center justify-evenly truncate border-2 border-solid border-base-200 bg-base-200 p-1 shadow-xl transition-colors duration-200 hover:border-primary hover:brightness-125'>
       <Image
         src={`/seasonalData/seasonChallengesData/seasonChallengeIcons/${props.icon}`}
         width={84}
         height={84}
         alt='Challenge Icon'
       />
-      <span className='truncate font-neue text-sm'>
-        {props.week} \\ {props.name}
-      </span>
+      <span className='font-neue text-sm text-white'>{props.name}</span>
     </div>
   );
 }
