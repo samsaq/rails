@@ -1,27 +1,45 @@
-import styles from './challengeCard.module.scss';
-import Image from 'next/image';
+'use client';
 
-interface challengeProps {
-  //component props
-  name: string;
-  week: string;
-  description: string;
-  icon: string; //the icon's file name
-  rewardItems: {
-    name: string;
-    description: string;
-    quantity: string;
-  }[];
-  objectives: {
-    name: string;
-    startValue: string;
-    completionValue: string;
-  }[];
-}
+import Image from 'next/image';
+import { useSetAtom } from 'jotai';
+import type { challengeProps } from '@/atoms';
+
+import {
+  toolTipHovering,
+  currentToolTipChallengeProps,
+  toolTipType,
+  mousePosOnHoverAble,
+} from '@/atoms';
 
 export default function ChallengeCard(props: challengeProps) {
+  const setToolTipHoveringState = useSetAtom(toolTipHovering);
+  const setCurrentToolTipChallengeProps = useSetAtom(
+    currentToolTipChallengeProps
+  );
+  const setToolTipType = useSetAtom(toolTipType);
+  const setMousePosOnHoverAble = useSetAtom(mousePosOnHoverAble);
+
+  const handleMouseOver = (e: React.MouseEvent<HTMLDivElement>) => {
+    setToolTipHoveringState(true);
+    setToolTipType('challenge');
+    setCurrentToolTipChallengeProps(props);
+  };
+
+  const handleMouseOut = (e: React.MouseEvent<HTMLDivElement>) => {
+    setToolTipHoveringState(false);
+  };
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    setMousePosOnHoverAble({ x: e.clientX, y: e.clientY });
+  };
+
   return (
-    <div className='flex aspect-square w-32 flex-col items-center justify-evenly truncate border-2 border-solid border-base-200 bg-base-200 p-1 shadow-xl transition-colors duration-200 hover:border-primary hover:brightness-125'>
+    <div
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}
+      onMouseMove={handleMouseMove}
+      className='flex aspect-square w-32 flex-col items-center justify-evenly truncate border-2 border-solid border-base-200 bg-base-200 p-1 shadow-xl transition-colors duration-200 hover:border-primary hover:brightness-125'
+    >
       <Image
         src={`/seasonalData/seasonChallengesData/seasonChallengeIcons/${props.icon}`}
         width={84}
