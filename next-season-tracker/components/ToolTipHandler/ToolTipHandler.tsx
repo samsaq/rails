@@ -28,20 +28,20 @@ export default function ToolTipHandler() {
     computedHandlerX = mouseX + toolTipOffset;
     computedHandlerY = mouseY;
     // We'll check the dimensions of the component against the viewport to see
-    //if we need to change the offsets to keep the tooltip on screen.
+    // if we need to change the offsets to keep the tooltip on screen.
     if (offScreenCheck() && containerRef.current != null) {
       const containerRect = containerRef.current.getBoundingClientRect();
       // see if the tooltip is off screen to the right and flip the offset as needed so the tooltip is to the left (no need to check left as the default is to be right of the mouse)
       if (containerRect.right > window.innerWidth) {
-        computedHandlerX = mouseX - containerRect.width - toolTipOffset;
+        //computedHandlerX = mouseX - containerRect.width - toolTipOffset;
       }
       // if the tooltip is off of the screen on the vertical axis, shift it up or down as needed
       if (containerRect.bottom > window.innerHeight) {
         //shift it up by the amount it's off screen
-        computedHandlerY = window.innerHeight - containerRect.height;
+        //computedHandlerY = window.innerHeight - containerRect.height;
       } else if (containerRect.top < 0) {
         //force it to stay on screen
-        computedHandlerY = 0;
+        //computedHandlerY = 0;
       }
     }
   }
