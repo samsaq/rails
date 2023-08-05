@@ -5,15 +5,11 @@ export default function challengeToolTip(props: challengeProps) {
   //remove unneeded escape characters from the description
   const cleanedDesc = props.description.replace(/\\/g, '');
 
-  //replace any empty objective names with Progress
+  //replace any empty objective names with Progress & remove the [] around words within the objectives
   props.objectives.forEach((objective) => {
     if (objective.name === '') {
       objective.name = 'Progress';
     }
-  });
-
-  //remove the [] around words within the objectives
-  props.objectives.forEach((objective) => {
     objective.name = objective.name.replace(/[\[\]']+/g, '');
   });
 
