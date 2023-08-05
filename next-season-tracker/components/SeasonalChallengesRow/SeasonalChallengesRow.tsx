@@ -1,31 +1,44 @@
 import ChallengeCard from '../challengeCard/challengeCard';
 import { challengeProps } from '@/atoms';
+import seasonalChallengesMetadata from '../../public/seasonalData/seasonChallengesData/seasonalChallengesMetaData.json';
 
-export default async function SeasonalChallengesRow(week: string) {
-  //using the week, get and parse the week's json for the challengeProps
-  //the flex row will contain the challenge cards for each challenge in the week
-  //the file will be in public/seasonalData/seasonChallengesData/week.json
-  //the json will be an object with the challenge names as keys and the challengeProps as values
-  //the challengeProps will be passed to the challengeCard component
+interface SeasonalChallengesMetadata {
+  [week: string]: {
+    [challengeName: string]: challengeProps;
+  };
+}
 
-  //Reminder: rework seasonalscript to output a single seasonal challenges json instead to avoid the need for dyanmic imports
-
-  //fetch the json
-  async function fetchData() {
-    const res = await fetch(
-      `public/seasonalData/seasonChallengesData/${week}.json`
+export default function SeasonalChallengesRow() {
+  const typedSeasonalChallengesMetadata: SeasonalChallengesMetadata =
+    seasonalChallengesMetadata as SeasonalChallengesMetadata;
+  //parsing the data for each week out of the metadata (first level keys are the weeks, and below are the challenges)
+  const seasonalChallenges: challengeProps[][] = [];
+  Object.keys(typedSeasonalChallengesMetadata).forEach((curWeek) => {
+    const curWeekData = typedSeasonalChallengesMetadata[curWeek];
+    //get the challenges for the current week into an array of challengeProps
+    const curWeekChallenges = Object.keys(curWeekData).map(
+      (curChallengeName) => {
+        return curWeekData[curChallengeName];
+      }
     );
-    const data = await res.json();
-    return data;
-  }
+    //add this week's challenges to the array of weeks, the first is seasonal, next is week 1, then week 2, etc
+    seasonalChallenges.push(curWeekChallenges);
+  });
 
-  //parse the json
-  const weekData = await fetchData();
-  const challengeNames = Object.keys(weekData);
-  const challengePropsArray: challengeProps[] = [];
-  for (const element of challengeNames) {
-    challengePropsArray.push(weekData[element]);
-  }
-
-  return <div className='flex flex-row items-center justify-evenly '></div>;
+  return (
+    <>
+      <div className='carousel w-1/2 border-2 border-solid border-red-500'>
+        {seasonalChallenges.map((curWeek) => (
+          <div key={curWeek[0].week} className='carousel-item w-full'>
+            {curWeek.map((curChallenge) => (
+              <ChallengeCard
+                key={curChallenge.week + curChallenge.name}
+                {...curChallenge}
+              />
+            ))}
+          </div> //assuming at least one challenge per week
+        ))}
+      </div>
+    </>
+  );
 }

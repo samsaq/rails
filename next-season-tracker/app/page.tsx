@@ -1,6 +1,7 @@
 import ChallengeCard from '@/components/challengeCard/challengeCard';
 import ChallengeToolTip from '@/components/challengeToolTip/challengeToolTip';
 import ToolTipHandler from '@/components/ToolTipHandler/ToolTipHandler';
+import SeasonalChallengesRow from '@/components/SeasonalChallengesRow/SeasonalChallengesRow';
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           },
         ]}
       />
+      <SeasonalChallengesRow />
       <ChallengeToolTip
         name='Into the Depths I'
         week='Week 1'
