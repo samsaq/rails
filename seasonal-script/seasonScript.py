@@ -328,6 +328,10 @@ def seasonScrape(seasonName, manifestLocation):
     seasonalChallengesMetaDataJSON = dict(
         sorted(seasonalChallengesMetaDataJSON.items()))
 
+    # Move the week "Seasonal" to the end of the list if it exists
+    if 'Seasonal' in seasonalChallengesMetaDataJSON:
+        seasonalChallengesMetaDataJSON['Seasonal'] = seasonalChallengesMetaDataJSON.pop('Seasonal')
+
     # write the seasonal json to the file
     with open('seasonalData/seasonChallengesData/seasonalChallengesMetaData.json', 'w') as f:
         f.write(jsonlib.dumps(seasonalChallengesMetaDataJSON, indent=4))
