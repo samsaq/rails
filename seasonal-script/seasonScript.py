@@ -12,7 +12,7 @@ import json as jsonlib
 from sqlalchemy.orm import sessionmaker
 from models import DestinySeasonDefinition, DestinyProgressionDefinition, DestinyPresentationNodeDefinition, DestinyRecordDefinition, DestinyObjectiveDefinition, DestinyInventoryItemDefinition
 
-debug = True
+debug = False
 baseUrl = "https://www.bungie.net"
 
 
