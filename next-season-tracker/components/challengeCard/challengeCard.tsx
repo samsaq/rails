@@ -38,7 +38,7 @@ export default function ChallengeCard(props: challengeProps) {
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
       onMouseMove={handleMouseMove}
-      className='flex aspect-square w-32 flex-col items-center justify-evenly truncate border-2 border-solid border-base-200 bg-base-200 p-1 shadow-xl transition-colors duration-200 hover:border-primary hover:brightness-125'
+      className='flex aspect-square w-32 flex-col items-center justify-evenly overflow-hidden border-2 border-solid border-base-200 bg-base-200 p-1 shadow-xl transition-colors duration-200 hover:border-primary hover:brightness-125'
     >
       <Image
         src={`/seasonalData/seasonChallengesData/seasonChallengeIcons/${props.icon}`}
@@ -46,7 +46,9 @@ export default function ChallengeCard(props: challengeProps) {
         height={84}
         alt='Challenge Icon'
       />
-      <span className='font-neue text-sm text-white'>{props.name}</span>
+      <span className='max-w-[7rem] truncate font-neue text-sm text-white'>
+        {props.name}
+      </span>
     </div>
   );
 }

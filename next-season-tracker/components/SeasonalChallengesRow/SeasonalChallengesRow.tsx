@@ -27,9 +27,12 @@ export default function SeasonalChallengesRow() {
 
   return (
     <>
-      <div className='carousel w-1/2 border-2 border-solid border-red-500'>
+      <div className='carousel w-[96rem]'>
         {seasonalChallenges.map((curWeek) => (
-          <div key={curWeek[0].week} className='carousel-item w-full'>
+          <div
+            key={curWeek[0].week}
+            className='carousel-item w-full justify-center'
+          >
             {curWeek.map((curChallenge) => (
               <ChallengeCard
                 key={curChallenge.week + curChallenge.name}
