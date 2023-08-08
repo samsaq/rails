@@ -29,7 +29,7 @@ export default function challengeToolTip(props: challengeProps) {
         <span className=' px-1 font-neue text-sm text-white'>{props.name}</span>
       </div>
       <div className='flex w-full flex-col items-start justify-start bg-base-200 p-2'>
-        <span className='max-w-sm break-words pb-4 font-neue text-sm text-white'>
+        <span className='max-w-sm break-words pb-3 font-neue text-sm text-white'>
           {cleanedDesc}
         </span>
         {props.objectives.map((objective, index) => {
