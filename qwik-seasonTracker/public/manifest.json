@@ -1,9 +1,0 @@
-{
-  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "D2 Season Tracker",
-  "short_name": "D2 Season Tracker",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#fff",
-  "description": "A season tracker for destiny 2."
-}
