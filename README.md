@@ -19,5 +19,5 @@ Tags:
 
 * ~~A script to help me update the website's static assets as seasons come and go~~ DONE (see seasonal-script)
 
-  # Branch Scope
+  ## Branch Scope
   This branch is intended to encompass the creation the initial landing page for logged out users to see. This includes The seasonal reward track display, challenge display, and login system.
