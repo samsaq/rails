@@ -18,3 +18,6 @@ Tags:
     - Seasonal Calculator (See how many challenges / bounties / etc you need to do to get to your desired goal)
 
 * ~~A script to help me update the website's static assets as seasons come and go~~ DONE (see seasonal-script)
+
+  # Branch Scope
+  This branch is intended to encompass the creation the initial landing page for logged out users to see. This includes The seasonal reward track display, challenge display, and login system.
