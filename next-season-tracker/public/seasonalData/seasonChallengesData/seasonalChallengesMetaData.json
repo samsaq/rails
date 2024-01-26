@@ -1,0 +1,1919 @@
+{
+    "Week 1": {
+        "Into the Depths I": {
+            "name": "Into the Depths I",
+            "week": "Week 1",
+            "description": "Complete the Week 1 \"Into the Depths\" mission.",
+            "icon": "Into the Depths I.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "",
+                    "startValue": "0",
+                    "completionValue": "1"
+                }
+            ]
+        },
+        "Front Line Salvager I": {
+            "name": "Front Line Salvager I",
+            "week": "Week 1",
+            "description": "Complete Salvage or Deep Dive activities while using an Arc or Strand subclass.\n\nAdditionally, defeat Fallen anywhere in the system.",
+            "icon": "Front Line Salvager I.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Seasonal activities",
+                    "startValue": "0",
+                    "completionValue": "3"
+                },
+                {
+                    "name": "Fallen",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Successful Salvager": {
+            "name": "Successful Salvager",
+            "week": "Week 1",
+            "description": "Successfully complete jobs in Salvage activities.",
+            "icon": "Successful Salvager.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Jobs",
+                    "startValue": "0",
+                    "completionValue": "5"
+                }
+            ]
+        },
+        "The One That Didn't Get Away": {
+            "name": "The One That Didn't Get Away",
+            "week": "Week 1",
+            "description": "Catch fish at any Fish Pond.\n\nAdditionally, complete public events on any destination.",
+            "icon": "The One That Didn't Get Away.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Fish",
+                    "startValue": "0",
+                    "completionValue": "50"
+                },
+                {
+                    "name": "Public events",
+                    "startValue": "0",
+                    "completionValue": "2"
+                }
+            ]
+        },
+        "EDZ Activities": {
+            "name": "EDZ Activities",
+            "week": "Week 1",
+            "description": "In the EDZ, earn progress by completing bounties, patrols, public events, and Lost Sectors.",
+            "icon": "EDZ Activities.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "18"
+                }
+            ]
+        },
+        "Taking All Challenges": {
+            "name": "Taking All Challenges",
+            "week": "Week 1",
+            "description": "Complete weekly playlist challenges.",
+            "icon": "Taking All Challenges.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Challenges",
+                    "startValue": "0",
+                    "completionValue": "3"
+                }
+            ]
+        },
+        "Spark Defender": {
+            "name": "Spark Defender",
+            "week": "Week 1",
+            "description": "Score points in Rift. Bonus progress is awarded for igniting the Rift.",
+            "icon": "Spark Defender.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Points",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Standard Issue": {
+            "name": "Standard Issue",
+            "week": "Week 1",
+            "description": "Defeat targets in Gambit with Primary ammo. Bonus progress is granted for using Auto Rifles, Hand Cannons, and Scout Rifles. Bonus progress also is granted for defeating Guardians.",
+            "icon": "Standard Issue.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "100"
+                }
+            ]
+        },
+        "The Fallen Fall": {
+            "name": "The Fallen Fall",
+            "week": "Week 1",
+            "description": "Defeat Fallen combatants in Vanguard playlists or strikes. Earn bonus progress for defeating tougher combatants.",
+            "icon": "The Fallen Fall.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Fallen",
+                    "startValue": "0",
+                    "completionValue": "200"
+                }
+            ]
+        },
+        "Calibrate Close Range": {
+            "name": "Calibrate Close Range",
+            "week": "Week 1",
+            "description": "Calibrate close-range weapons\u2014Sidearms, Submachine Guns, Shotguns, Glaives, and Swords. Bonus progress for defeating Guardians.",
+            "icon": "Calibrate Close Range.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Calibration",
+                    "startValue": "0",
+                    "completionValue": "200"
+                }
+            ]
+        }
+    },
+    "Week 10": {
+        "Wicked Depths": {
+            "name": "Wicked Depths",
+            "week": "Week 10",
+            "description": "Complete the Whetstone encounter in Deep Dives and earn the Wicked Implement Scout Rifle.",
+            "icon": "Wicked Depths.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "",
+                    "startValue": "0",
+                    "completionValue": "1"
+                }
+            ]
+        },
+        "Neptune Activities": {
+            "name": "Neptune Activities",
+            "week": "Week 10",
+            "description": "In Neomuna, complete bounties, patrols, public events, and Lost Sectors.",
+            "icon": "Neptune Activities.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "18"
+                }
+            ]
+        },
+        "Sparks of Arc": {
+            "name": "Sparks of Arc",
+            "week": "Week 10",
+            "description": "Defeat Guardians in Crucible matches with the Arc subclass equipped. Bonus progress is granted for defeating blinded opponents.",
+            "icon": "Sparks of Arc.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "25"
+                }
+            ]
+        },
+        "Special Measures": {
+            "name": "Special Measures",
+            "week": "Week 10",
+            "description": "Defeat targets in Gambit with weapons using Special ammo. Bonus progress is granted for defeating Guardians and landing final blows with Glaives and Hand Cannons using Special ammo.",
+            "icon": "Special Measures.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "100"
+                }
+            ]
+        },
+        "Tried and True": {
+            "name": "Tried and True",
+            "week": "Week 10",
+            "description": "Defeat combatants in Vanguard playlists or strikes with Primary ammo. Bonus progress is granted for more challenging combatants.",
+            "icon": "Tried and True.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "300"
+                }
+            ]
+        }
+    },
+    "Week 2": {
+        "Into the Depths II": {
+            "name": "Into the Depths II",
+            "week": "Week 2",
+            "description": "Complete the Week 2 \"Into the Depths\" mission.",
+            "icon": "Into the Depths II.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "",
+                    "startValue": "0",
+                    "completionValue": "2"
+                }
+            ]
+        },
+        "Front Line Salvager II": {
+            "name": "Front Line Salvager II",
+            "week": "Week 2",
+            "description": "Open chests in Salvage. Redeeming Salvage Keys grants additional progress.\n\nAdditionally, defeat Taken anywhere in the system.",
+            "icon": "Front Line Salvager II.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Salvage Chests",
+                    "startValue": "0",
+                    "completionValue": "3"
+                },
+                {
+                    "name": "Taken",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Powerful Salvager": {
+            "name": "Powerful Salvager",
+            "week": "Week 2",
+            "description": "Defeat powerful combatants in Salvage activities.",
+            "icon": "Powerful Salvager.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Powerful combatants",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Antithetical Armaments": {
+            "name": "Antithetical Armaments",
+            "week": "Week 2",
+            "description": "Defeat targets with Shotguns or Sniper Rifles. Defeated Guardians or defeated combatants in Salvage or Deep Dive activities grant additional progress.",
+            "icon": "Antithetical Armaments.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "[Shotgun] or [Sniper Rifle] final blows",
+                    "startValue": "0",
+                    "completionValue": "150"
+                }
+            ]
+        },
+        "Throne World Activities": {
+            "name": "Throne World Activities",
+            "week": "Week 2",
+            "description": "In the Throne World, complete bounties and earn progress by completing patrols, public events, and looting Lost Sectors.",
+            "icon": "Throne World Activities.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "18"
+                }
+            ]
+        },
+        "Lost in the Legend": {
+            "name": "Lost in the Legend",
+            "week": "Week 2",
+            "description": "Complete a Lost Sector on Legend or higher.",
+            "icon": "Lost in the Legend.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Lost Sectors",
+                    "startValue": "0",
+                    "completionValue": "1"
+                }
+            ]
+        },
+        "Flourish of Power": {
+            "name": "Flourish of Power",
+            "week": "Week 2",
+            "description": "Defeat Guardians in the Mayhem playlist with Super abilities.",
+            "icon": "Flourish of Power.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Guardians",
+                    "startValue": "0",
+                    "completionValue": "25"
+                }
+            ]
+        },
+        "Primeval Entourage": {
+            "name": "Primeval Entourage",
+            "week": "Week 2",
+            "description": "Defeat Taken in Gambit. Earn bonus progress for defeating tougher combatants.",
+            "icon": "Primeval Entourage.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Taken",
+                    "startValue": "0",
+                    "completionValue": "100"
+                }
+            ]
+        },
+        "Taken Decimator": {
+            "name": "Taken Decimator",
+            "week": "Week 2",
+            "description": "Defeat Taken combatants in Vanguard playlists or strikes. Earn bonus progress for defeating tougher combatants.",
+            "icon": "Taken Decimator.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Taken",
+                    "startValue": "0",
+                    "completionValue": "200"
+                }
+            ]
+        },
+        "Calibrate Long Range": {
+            "name": "Calibrate Long Range",
+            "week": "Week 2",
+            "description": "Calibrate long-range weapons\u2014Pulse Rifles, Bows, and Trace Rifles. Bonus progress is granted for defeating Guardians.",
+            "icon": "Calibrate Long Range.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Calibration",
+                    "startValue": "0",
+                    "completionValue": "100"
+                }
+            ]
+        }
+    },
+    "Week 3": {
+        "Into the Depths III": {
+            "name": "Into the Depths III",
+            "week": "Week 3",
+            "description": "Complete the Week 3 \"Into the Depths\" mission.",
+            "icon": "Into the Depths III.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "",
+                    "startValue": "0",
+                    "completionValue": "3"
+                }
+            ]
+        },
+        "Front Line Salvager III": {
+            "name": "Front Line Salvager III",
+            "week": "Week 3",
+            "description": "Complete Salvage or Deep Dive activities while wielding any Season of the Deep weapon.\n\nAdditionally, defeat targets with Arc or Strand damage anywhere in the system. Guardians grant additional progress.",
+            "icon": "Front Line Salvager III.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Seasonal activities",
+                    "startValue": "0",
+                    "completionValue": "3"
+                },
+                {
+                    "name": "[Arc] or [Strand] damage",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Depth Charge": {
+            "name": "Depth Charge",
+            "week": "Week 3",
+            "description": "Defeat bosses in Salvage activities.",
+            "icon": "Depth Charge.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Bosses",
+                    "startValue": "0",
+                    "completionValue": "5"
+                }
+            ]
+        },
+        "Short-Range Salvager": {
+            "name": "Short-Range Salvager",
+            "week": "Week 3",
+            "description": "Defeat targets with Submachine Guns or Swords. Defeated Guardians or combatants defeated in Salvage or Deep Dive activities grant additional progress.",
+            "icon": "Short-Range Salvager.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "[SMG] or [Sword] final blows",
+                    "startValue": "0",
+                    "completionValue": "300"
+                }
+            ]
+        },
+        "Nessus Activities": {
+            "name": "Nessus Activities",
+            "week": "Week 3",
+            "description": "On Nessus, earn progress by completing bounties, patrols, public events, and Lost Sectors.",
+            "icon": "Nessus Activities.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "18"
+                }
+            ]
+        },
+        "Commendation Appreciation": {
+            "name": "Commendation Appreciation",
+            "week": "Week 3",
+            "description": "Earn progress for giving commendations in Vanguard, Crucible, and Gambit activities.",
+            "icon": "Commendation Appreciation.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "10"
+                }
+            ]
+        },
+        "Cosmic Churn": {
+            "name": "Cosmic Churn",
+            "week": "Week 3",
+            "description": "Defeat Guardians in Crucible. Bonus progress is granted for opponents defeated with Arc, Strand, and Void ability final blows.",
+            "icon": "Cosmic Churn.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Guardians",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Bank, Kill, Repeat": {
+            "name": "Bank, Kill, Repeat",
+            "week": "Week 3",
+            "description": "Earn points by banking Motes, defeating Blockers, and defeating Guardians in Gambit.",
+            "icon": "Bank, Kill, Repeat.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Points",
+                    "startValue": "0",
+                    "completionValue": "250"
+                }
+            ]
+        },
+        "Ultimate Champion": {
+            "name": "Ultimate Champion",
+            "week": "Week 3",
+            "description": "Defeat Champions in any Nightfall strike on Hero difficulty or higher. Earn bonus progress at higher difficulty tiers.",
+            "icon": "Ultimate Champion.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Champions",
+                    "startValue": "0",
+                    "completionValue": "60"
+                }
+            ]
+        },
+        "Mid-Range Calibration": {
+            "name": "Mid-Range Calibration",
+            "week": "Week 3",
+            "description": "Calibrate mid-range weapons\u2014Hand Cannons, Glaives, Auto Rifles, Fusion Rifles, and Machine Guns. Bonus progress is granted for defeating Guardians.",
+            "icon": "Mid-Range Calibration.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Calibration",
+                    "startValue": "0",
+                    "completionValue": "200"
+                }
+            ]
+        }
+    },
+    "Week 4": {
+        "Into the Depths IV": {
+            "name": "Into the Depths IV",
+            "week": "Week 4",
+            "description": "Complete the Week 4 \"Into the Depths\" mission.",
+            "icon": "Into the Depths IV.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "",
+                    "startValue": "0",
+                    "completionValue": "4"
+                }
+            ]
+        },
+        "Front Line Salvager IV": {
+            "name": "Front Line Salvager IV",
+            "week": "Week 4",
+            "description": "Complete Salvage or Deep Dive activities while using a Void subclass.\n\nAdditionally, defeat Hive anywhere in the system.",
+            "icon": "Front Line Salvager IV.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Seasonal activities",
+                    "startValue": "0",
+                    "completionValue": "3"
+                },
+                {
+                    "name": "Hive",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Deep Diver": {
+            "name": "Deep Diver",
+            "week": "Week 4",
+            "description": "Successfully complete encounters at any depth in Deep Dive activities. Pressure Trial encounters grant increased progress.",
+            "icon": "Deep Diver.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Encounters",
+                    "startValue": "0",
+                    "completionValue": "6"
+                }
+            ]
+        },
+        "Commendable Salvager": {
+            "name": "Commendable Salvager",
+            "week": "Week 4",
+            "description": "Give or receive commendations in matchmade Salvage activities.",
+            "icon": "Commendable Salvager.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Commendations",
+                    "startValue": "0",
+                    "completionValue": "6"
+                }
+            ]
+        },
+        "Mod Collector": {
+            "name": "Mod Collector",
+            "week": "Week 4",
+            "description": "Unlock artifact mods.",
+            "icon": "Mod Collector.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Mods unlocked",
+                    "startValue": "0",
+                    "completionValue": "12"
+                }
+            ]
+        },
+        "Momentum Crash": {
+            "name": "Momentum Crash",
+            "week": "Week 4",
+            "description": "Defeat Guardians in Momentum Control. Earn bonus progress with Zone Advantage.",
+            "icon": "Momentum Crash.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Guardians",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Sound of Metal": {
+            "name": "Sound of Metal",
+            "week": "Week 4",
+            "description": "Defeat targets with Auto Rifles, Hand Cannons, and Scout Rifles in Gambit. Bonus progress is granted for defeating Guardians.",
+            "icon": "Sound of Metal.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "[Auto Rifle] Auto Rifle",
+                    "startValue": "0",
+                    "completionValue": "100"
+                },
+                {
+                    "name": "[Hand Cannon] Hand Cannon",
+                    "startValue": "0",
+                    "completionValue": "100"
+                },
+                {
+                    "name": "[Scout Rifle] Scout Rifle",
+                    "startValue": "0",
+                    "completionValue": "100"
+                }
+            ]
+        },
+        "Darkest Nightfall": {
+            "name": "Darkest Nightfall",
+            "week": "Week 4",
+            "description": "Complete any Nightfall strike on Hero difficulty or higher.",
+            "icon": "Darkest Nightfall.jpg",
+            "rewardItems": [
+                {
+                    "name": "Nightfall Weapon",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Nightfall",
+                    "startValue": "0",
+                    "completionValue": "3"
+                }
+            ]
+        },
+        "Precision Calibration": {
+            "name": "Precision Calibration",
+            "week": "Week 4",
+            "description": "Calibrate marksman weapons\u2014Scout Rifles, Sniper Rifles, and Linear Fusion Rifles\u2014by landing precision final blows. Bonus progress against Guardians.",
+            "icon": "Precision Calibration.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Calibration",
+                    "startValue": "0",
+                    "completionValue": "200"
+                }
+            ]
+        }
+    },
+    "Week 5": {
+        "Into the Depths V": {
+            "name": "Into the Depths V",
+            "week": "Week 5",
+            "description": "Complete the Week 5 \"Into the Depths\" mission.",
+            "icon": "Into the Depths V.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "",
+                    "startValue": "0",
+                    "completionValue": "5"
+                }
+            ]
+        },
+        "Front Line Salvager V": {
+            "name": "Front Line Salvager V",
+            "week": "Week 5",
+            "description": "Complete 8 bounties from the Sonar Station in the H.E.L.M.\n\nAdditionally, defeat powerful combatants anywhere in the system.",
+            "icon": "Front Line Salvager V.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Bounties",
+                    "startValue": "0",
+                    "completionValue": "8"
+                },
+                {
+                    "name": "Powerful combatants",
+                    "startValue": "0",
+                    "completionValue": "25"
+                }
+            ]
+        },
+        "Heavy Salvager": {
+            "name": "Heavy Salvager",
+            "week": "Week 5",
+            "description": "Defeat combatants with Power weapons in Salvage activities.",
+            "icon": "Heavy Salvager.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Power weapon",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Prepared for War": {
+            "name": "Prepared for War",
+            "week": "Week 5",
+            "description": "Defeat targets with Hand Cannons or Pulse Rifles. Defeated Guardians or combatants defeated in Salvage or Deep Dive activities grant additional progress.",
+            "icon": "Prepared for War.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "[Hand Cannon] or [Pulse Rifle] final blows",
+                    "startValue": "0",
+                    "completionValue": "300"
+                }
+            ]
+        },
+        "Battle Rhythm": {
+            "name": "Battle Rhythm",
+            "week": "Week 5",
+            "description": "Defeat targets anywhere in the system while using Auto Rifles, Hand Cannons, Scout Rifles, Glaives, or Linear Fusion Rifles. Bonus progress is granted for defeating Guardians.",
+            "icon": "Battle Rhythm.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "150"
+                }
+            ]
+        },
+        "Gotta Win Them All": {
+            "name": "Gotta Win Them All",
+            "week": "Week 5",
+            "description": "Complete activities in Vanguard, Gambit, or Crucible playlists. Bonus progress is granted for completing Vanguard playlist activities at Hero difficulty or higher, or for winning Gambit or Crucible matches.",
+            "icon": "Gotta Win Them All.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "15"
+                }
+            ]
+        },
+        "Iron Sharpens Iron": {
+            "name": "Iron Sharpens Iron",
+            "week": "Week 5",
+            "description": "Complete Iron Banner matches. Earn bonus progress for wins.",
+            "icon": "Iron Sharpens Iron.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "15"
+                }
+            ]
+        },
+        "Flood Tide": {
+            "name": "Flood Tide",
+            "week": "Week 5",
+            "description": "Acquire Last Rite.",
+            "icon": "Flood Tide.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "[Scout Rifle] Scout Rifle",
+                    "startValue": "0",
+                    "completionValue": "1"
+                }
+            ]
+        }
+    },
+    "Week 6": {
+        "Into the Depths VI": {
+            "name": "Into the Depths VI",
+            "week": "Week 6",
+            "description": "Complete the Week 6 \"Into the Depths\" mission.",
+            "icon": "Into the Depths VI.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "",
+                    "startValue": "0",
+                    "completionValue": "6"
+                }
+            ]
+        },
+        "Front Line Salvager VI": {
+            "name": "Front Line Salvager VI",
+            "week": "Week 6",
+            "description": "Open chests in Deep Dive activities. Redeeming Deep Dive Keys grants bonus progress.\n\nAdditionally, defeat targets with Void damage anywhere in the system. Guardians grant increased progress.",
+            "icon": "Front Line Salvager VI.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Deep Dive Chests",
+                    "startValue": "0",
+                    "completionValue": "3"
+                },
+                {
+                    "name": "[Void] Void",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Under Pressure": {
+            "name": "Under Pressure",
+            "week": "Week 6",
+            "description": "Successfully complete a Pressure Trial encounter at any depth in a Deep Dive activity.\n\nAdditionally, defeat bosses and minibosses in Deep Dive activities.",
+            "icon": "Under Pressure.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Pressure Trial",
+                    "startValue": "0",
+                    "completionValue": "1"
+                },
+                {
+                    "name": "Bosses and Minibosses",
+                    "startValue": "0",
+                    "completionValue": "7"
+                }
+            ]
+        },
+        "Go Big (Fish) or Go Home": {
+            "name": "Go Big (Fish) or Go Home",
+            "week": "Week 6",
+            "description": "Catch large or bigger fish at any Fish Pond.\n\nFish must be at least 18kg to be considered large.",
+            "icon": "Go Big (Fish) or Go Home.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Large fish",
+                    "startValue": "0",
+                    "completionValue": "15"
+                }
+            ]
+        },
+        "Round and Round We Go": {
+            "name": "Round and Round We Go",
+            "week": "Week 6",
+            "description": "Generate Orbs of Power in Vanguard, Gambit, or Crucible playlists.",
+            "icon": "Round and Round We Go.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Orbs of Power",
+                    "startValue": "0",
+                    "completionValue": "200"
+                }
+            ]
+        },
+        "The Deep End": {
+            "name": "The Deep End",
+            "week": "Week 6",
+            "description": "Defeat opponents in the Crucible with Auto Rifles, Hand Cannons, Scout Rifles, Glaives, or Linear Fusion Rifles.\n\nAdditional progress is granted for landing final blows with Glaives, Linear Fusion Rifles, and Hand Cannons that use Special ammo.",
+            "icon": "The Deep End.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Guardians",
+                    "startValue": "0",
+                    "completionValue": "100"
+                }
+            ]
+        },
+        "Boss Battle": {
+            "name": "Boss Battle",
+            "week": "Week 6",
+            "description": "Defeat bosses in strikes or Vanguard playlists.",
+            "icon": "Boss Battle.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Bosses",
+                    "startValue": "0",
+                    "completionValue": "10"
+                }
+            ]
+        },
+        "Absolutely Stunning": {
+            "name": "Absolutely Stunning",
+            "week": "Week 6",
+            "description": "Stun Champions.",
+            "icon": "Absolutely Stunning.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Champions",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        }
+    },
+    "Week 7": {
+        "Front Line Salvager VII": {
+            "name": "Front Line Salvager VII",
+            "week": "Week 7",
+            "description": "Complete Salvage or Deep Dive activities while wearing Season of the Deep armor.\n\nAdditionally, defeat bosses and minibosses anywhere in the system.",
+            "icon": "Front Line Salvager VII.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Seasonal activities",
+                    "startValue": "0",
+                    "completionValue": "3"
+                },
+                {
+                    "name": "Bosses and Minibosses",
+                    "startValue": "0",
+                    "completionValue": "10"
+                }
+            ]
+        },
+        "Salvage Legend": {
+            "name": "Salvage Legend",
+            "week": "Week 7",
+            "description": "Complete Salvage on Legend difficulty.",
+            "icon": "Salvage Legend.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "",
+                    "startValue": "0",
+                    "completionValue": "1"
+                }
+            ]
+        },
+        "Salvaged Munitions": {
+            "name": "Salvaged Munitions",
+            "week": "Week 7",
+            "description": "Defeat targets with Seasonal weapons. Defeated Guardians or combatants defeated in Salvage or Deep Dive activities grant additional progress.",
+            "icon": "Salvaged Munitions.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Targets defeated",
+                    "startValue": "0",
+                    "completionValue": "300"
+                }
+            ]
+        },
+        "Fleeting Glory": {
+            "name": "Fleeting Glory",
+            "week": "Week 7",
+            "description": "Complete Crucible matches in the Competitive playlist. Earn bonus progress for wins.",
+            "icon": "Fleeting Glory.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "8"
+                }
+            ]
+        },
+        "High-Value Hunter": {
+            "name": "High-Value Hunter",
+            "week": "Week 7",
+            "description": "Defeat powerful combatants in Gambit. Earn bonus progress for defeating high-value targets.",
+            "icon": "High-Value Hunter.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Targets",
+                    "startValue": "0",
+                    "completionValue": "150"
+                }
+            ]
+        },
+        "Grandmaster": {
+            "name": "Grandmaster",
+            "week": "Week 7",
+            "description": "Complete any Nightfall strike on Grandmaster.",
+            "icon": "Grandmaster.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Nightfall",
+                    "startValue": "0",
+                    "completionValue": "1"
+                }
+            ]
+        }
+    },
+    "Week 8": {
+        "Super Salvager": {
+            "name": "Super Salvager",
+            "week": "Week 8",
+            "description": "Defeat combatants with Super abilities in Salvage activities.",
+            "icon": "Super Salvager.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Super",
+                    "startValue": "0",
+                    "completionValue": "50"
+                }
+            ]
+        },
+        "Treasures from the Deep": {
+            "name": "Treasures from the Deep",
+            "week": "Week 8",
+            "description": "Complete a Deep Dive activity with the highest tier reward bonus.",
+            "icon": "Treasures from the Deep.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "",
+                    "startValue": "0",
+                    "completionValue": "1"
+                }
+            ]
+        },
+        "Commendable Diver": {
+            "name": "Commendable Diver",
+            "week": "Week 8",
+            "description": "Give or receive commendations in matchmade Deep Dive activities.",
+            "icon": "Commendable Diver.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Commendations",
+                    "startValue": "0",
+                    "completionValue": "6"
+                }
+            ]
+        },
+        "Pinnacle": {
+            "name": "Pinnacle",
+            "week": "Week 8",
+            "description": "Reach Power Level {var:1131227462} by earning pinnacle rewards.",
+            "icon": "Pinnacle.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Power Level",
+                    "startValue": "0",
+                    "completionValue": "1810"
+                }
+            ]
+        },
+        "Trial by Firing Squad": {
+            "name": "Trial by Firing Squad",
+            "week": "Week 8",
+            "description": "Win multiple rounds in the Trials of Osiris.",
+            "icon": "Trial by Firing Squad.jpg",
+            "rewardItems": [
+                {
+                    "name": "Trials of Osiris Weapon",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Challenger XP+++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Wins",
+                    "startValue": "0",
+                    "completionValue": "20"
+                }
+            ]
+        },
+        "Broadside": {
+            "name": "Broadside",
+            "week": "Week 8",
+            "description": "Defeat targets in Gambit with Power Weapons. Bonus progress is granted for final blows with Linear Fusion Rifles and for defeating Guardians.",
+            "icon": "Broadside.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "150"
+                }
+            ]
+        },
+        "Implements of War": {
+            "name": "Implements of War",
+            "week": "Week 8",
+            "description": "Defeat targets with Auto Rifles, Hand Cannons, Scout Rifles, Glaives, and Linear Fusion Rifles. Bonus progress is granted for defeating Guardians.",
+            "icon": "Implements of War.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "150"
+                }
+            ]
+        }
+    },
+    "Week 9": {
+        "Rapid Salvager": {
+            "name": "Rapid Salvager",
+            "week": "Week 9",
+            "description": "Rapidly defeat combatants in Salvage activities.",
+            "icon": "Rapid Salvager.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Rapidly defeated",
+                    "startValue": "0",
+                    "completionValue": "30"
+                }
+            ]
+        },
+        "Patience Perfected": {
+            "name": "Patience Perfected",
+            "week": "Week 9",
+            "description": "Catch Legendary or Exotic fish at any Fish Pond.",
+            "icon": "Patience Perfected.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Legendary or Exotic fish",
+                    "startValue": "0",
+                    "completionValue": "5"
+                }
+            ]
+        },
+        "Ritual Ornament": {
+            "name": "Ritual Ornament",
+            "week": "Week 9",
+            "description": "Acquire any ornament for the Seasonal ritual weapon.",
+            "icon": "Ritual Ornament.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Weapon Ornament",
+                    "startValue": "0",
+                    "completionValue": "1"
+                }
+            ]
+        },
+        "Eyeing Iron": {
+            "name": "Eyeing Iron",
+            "week": "Week 9",
+            "description": "Complete Crucible matches. Earn bonus progress in Iron Banner and for victories.",
+            "icon": "Eyeing Iron.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "15"
+                }
+            ]
+        },
+        "Ethereal Might": {
+            "name": "Ethereal Might",
+            "week": "Week 9",
+            "description": "Defeat targets with an Arc, Strand, or Void subclass equipped in Gambit. Bonus progress is granted for ability final blows and defeating Guardians.",
+            "icon": "Ethereal Might.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Progress",
+                    "startValue": "0",
+                    "completionValue": "200"
+                }
+            ]
+        },
+        "Rapid Precision": {
+            "name": "Rapid Precision",
+            "week": "Week 9",
+            "description": "Get rapid precision final blows. Bonus progress is granted for every defeated target after the second one.",
+            "icon": "Rapid Precision.jpg",
+            "rewardItems": [
+                {
+                    "name": "Challenger XP+++",
+                    "description": "",
+                    "quantity": "1"
+                },
+                {
+                    "name": "Bright Dust",
+                    "description": "Remnants of finely crafted items. Used to purchase new items from certain vendors.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "[Headshot] Rapidly defeated",
+                    "startValue": "0",
+                    "completionValue": "150"
+                }
+            ]
+        }
+    },
+    "Seasonal": {
+        "Gills Acquired": {
+            "name": "Gills Acquired",
+            "week": "Seasonal",
+            "description": "Complete all Season of the Deep challenges.",
+            "icon": "Gills Acquired.jpg",
+            "rewardItems": [
+                {
+                    "name": "Large Bright Dust Pile",
+                    "description": "A large quantity of Bright Dust.",
+                    "quantity": "1"
+                }
+            ],
+            "objectives": [
+                {
+                    "name": "Challenges",
+                    "startValue": "0",
+                    "completionValue": "76"
+                }
+            ]
+        }
+    }
+}
