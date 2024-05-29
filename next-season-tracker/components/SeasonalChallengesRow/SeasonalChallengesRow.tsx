@@ -1,7 +1,9 @@
+'use client';
+
 import ChallengeCard from '../challengeCard/challengeCard';
 import { challengeProps } from '@/atoms';
 import seasonalChallengesMetadata from '../../public/seasonalData/seasonChallengesData/seasonalChallengesMetaData.json';
-
+import { Icon } from '@iconify/react';
 interface SeasonalChallengesMetadata {
   [week: string]: {
     [challengeName: string]: challengeProps;
@@ -26,8 +28,12 @@ export default function SeasonalChallengesRow() {
   });
 
   return (
-    <>
-      <div className='carousel w-[96rem]'>
+    <div className='flex w-[96rem] flex-row items-center'>
+      <Icon
+        icon='mdi:chevron-double-left'
+        className=' h-24 w-24 shrink-0 text-secondary-focus'
+      />
+      <div className='carousel '>
         {seasonalChallenges.map((curWeek) => (
           <div
             key={curWeek[0].week}
@@ -42,6 +48,10 @@ export default function SeasonalChallengesRow() {
           </div> //assuming at least one challenge per week
         ))}
       </div>
-    </>
+      <Icon
+        icon='mdi:chevron-double-right'
+        className='h-24 w-24 shrink-0 text-secondary-focus'
+      />
+    </div>
   );
 }
