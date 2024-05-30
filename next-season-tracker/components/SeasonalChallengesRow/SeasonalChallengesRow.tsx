@@ -28,7 +28,7 @@ export default function SeasonalChallengesRow() {
     seasonalChallenges.push(curWeekChallenges);
   });
 
-  //handling the scroll arrows
+  //handling the nvaigation arrows
   // Reference to the carousel container
   const carouselRef = useRef<HTMLDivElement>(null);
 
@@ -54,19 +54,23 @@ export default function SeasonalChallengesRow() {
         onClick={scrollLeft}
       />
       <div ref={carouselRef} className='carousel '>
-        {seasonalChallenges.map((curWeek) => (
-          <div
-            key={curWeek[0].week}
-            className='carousel-item w-full justify-center'
-          >
-            {curWeek.map((curChallenge) => (
-              <ChallengeCard
-                key={curChallenge.week + curChallenge.name}
-                {...curChallenge}
-              />
-            ))}
-          </div> //assuming at least one challenge per week
-        ))}
+        {seasonalChallenges.map(
+          (
+            curWeek //assuming at least one challenge per week
+          ) => (
+            <div
+              key={curWeek[0].week}
+              className='carousel-item w-full justify-center'
+            >
+              {curWeek.map((curChallenge) => (
+                <ChallengeCard
+                  key={curChallenge.week + curChallenge.name}
+                  {...curChallenge}
+                />
+              ))}
+            </div>
+          )
+        )}
       </div>
       <Icon
         icon='mdi:chevron-double-right'
