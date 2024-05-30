@@ -4,6 +4,7 @@ import ChallengeCard from '../challengeCard/challengeCard';
 import { challengeProps } from '@/atoms';
 import seasonalChallengesMetadata from '../../public/seasonalData/seasonChallengesData/seasonalChallengesMetaData.json';
 import { Icon } from '@iconify/react';
+import { useRef } from 'react';
 interface SeasonalChallengesMetadata {
   [week: string]: {
     [challengeName: string]: challengeProps;
@@ -27,13 +28,32 @@ export default function SeasonalChallengesRow() {
     seasonalChallenges.push(curWeekChallenges);
   });
 
+  //handling the scroll arrows
+  // Reference to the carousel container
+  const carouselRef = useRef<HTMLDivElement>(null);
+
+  // Handler to scroll the carousel left
+  const scrollLeft = () => {
+    if (carouselRef.current) {
+      carouselRef.current.scrollBy({ left: -300, behavior: 'smooth' });
+    }
+  };
+
+  // Handler to scroll the carousel right
+  const scrollRight = () => {
+    if (carouselRef.current) {
+      carouselRef.current.scrollBy({ left: 300, behavior: 'smooth' });
+    }
+  };
+
   return (
-    <div className='flex w-[96rem] flex-row items-center'>
+    <div className='flex w-[96rem] items-center'>
       <Icon
         icon='mdi:chevron-double-left'
-        className=' h-24 w-24 shrink-0 text-secondary-focus'
+        className=' h-24 w-24 shrink-0 text-secondary-focus hover:brightness-125'
+        onClick={scrollLeft}
       />
-      <div className='carousel '>
+      <div ref={carouselRef} className='carousel '>
         {seasonalChallenges.map((curWeek) => (
           <div
             key={curWeek[0].week}
@@ -50,7 +70,8 @@ export default function SeasonalChallengesRow() {
       </div>
       <Icon
         icon='mdi:chevron-double-right'
-        className='h-24 w-24 shrink-0 text-secondary-focus'
+        className='h-24 w-24 shrink-0 text-secondary-focus hover:brightness-125'
+        onClick={scrollRight}
       />
     </div>
   );
