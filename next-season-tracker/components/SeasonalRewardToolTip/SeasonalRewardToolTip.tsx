@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { seasonalRewardProps } from '@/atoms';
 
 //A component which will display a tooltip for a seasonal reward item
@@ -7,7 +6,6 @@ export default function SeasonalRewardToolTip(props: seasonalRewardProps) {
 
   function shortenDescription(description: string, maxLength: number) {
     // Split the description into sentences via punctuation
-    // Do not remove any punctuation from the sentences
     const sentences = description.match(/[^.!?]+[.!?]/g) || [description];
 
     let shortened = '';
@@ -33,7 +31,6 @@ export default function SeasonalRewardToolTip(props: seasonalRewardProps) {
     return shortened;
   }
 
-  //if the description is over 100 characters, cut it off at the sentence before the 150th character
   const shortenedDesc = shortenDescription(cleanedDesc, 150);
 
   return (
