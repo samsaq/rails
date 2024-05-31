@@ -6,9 +6,11 @@ import {
   toolTipHovering,
   toolTipType,
   currentToolTipChallengeProps,
+  currentToolTipSeasonalRewardProps,
   mousePosOnHoverAble,
 } from '@/atoms';
 import ChallengeToolTip from '../challengeToolTip/challengeToolTip';
+import SeasonalRewardToolTip from '../SeasonalRewardToolTip/SeasonalRewardToolTip';
 
 //A component which will track the mouse position and display a tooltip when the mouse is over a challenge card or a seasonal reward item.
 //We'll use the challengeToolTip component for the challenge cards and assume a seasonalRewardToolTip for the reward items.
@@ -17,6 +19,9 @@ export default function ToolTipHandler() {
   const toolTipHoveringState = useAtomValue(toolTipHovering);
   const curToolTipType = useAtomValue(toolTipType);
   const curToolTipChallengeProps = useAtomValue(currentToolTipChallengeProps);
+  const curToolTipSeasonalRewardProps = useAtomValue(
+    currentToolTipSeasonalRewardProps
+  );
   const { x: mouseX, y: mouseY } = useAtomValue(mousePosOnHoverAble);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -80,9 +85,10 @@ export default function ToolTipHandler() {
     >
       {curToolTipType === 'challenge' && curToolTipChallengeProps != null ? (
         <ChallengeToolTip {...curToolTipChallengeProps} />
-      ) : (
-        curToolTipType === 'seasonalReward' && <div />
-      )}
+      ) : curToolTipType === 'seasonalReward' &&
+        curToolTipSeasonalRewardProps != null ? (
+        <SeasonalRewardToolTip {...curToolTipSeasonalRewardProps} />
+      ) : null}
     </div>
   );
 }

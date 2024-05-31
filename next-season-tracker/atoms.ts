@@ -31,11 +31,15 @@ export interface seasonalRewardProps {
 const toolTipHovering = atom(false);
 const toolTipType = atom<'challenge' | 'seasonalReward' | null>(null);
 const currentToolTipChallengeProps = atom<challengeProps | null>(null);
+const currentToolTipSeasonalRewardProps = atom<seasonalRewardProps | null>(
+  null
+);
 const mousePosOnHoverAble = atom({ x: 0, y: 0 });
 
 export {
   toolTipHovering,
   toolTipType,
   currentToolTipChallengeProps,
+  currentToolTipSeasonalRewardProps,
   mousePosOnHoverAble,
 };

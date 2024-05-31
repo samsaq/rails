@@ -1,4 +1,5 @@
 import ChallengeCard from '@/components/challengeCard/challengeCard';
+import SeasonalRewardCard from '@/components/SeasonalRewardCard/SeasonalRewardCard';
 import ChallengeToolTip from '@/components/challengeToolTip/challengeToolTip';
 import SeasonalRewardToolTip from '@/components/SeasonalRewardToolTip/SeasonalRewardToolTip';
 import ToolTipHandler from '@/components/ToolTipHandler/ToolTipHandler';
@@ -28,6 +29,14 @@ export default function Home() {
             completionValue: '1',
           },
         ]}
+      />
+      <SeasonalRewardCard
+        fileName='rank2_free.jpg'
+        rank={2}
+        freeOrPremium='free'
+        itemName='Upgrade Module'
+        itemDescription='A collection of universal components that can be used to infuse power between gear items. Can be purchased from the Gunsmith or acquired from special reward sources.'
+        itemQuantity={3}
       />
       <SeasonalChallengesRow />
       <ChallengeToolTip
