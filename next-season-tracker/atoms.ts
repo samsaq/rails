@@ -18,6 +18,16 @@ export interface challengeProps {
   }[];
 }
 
+export interface seasonalRewardProps {
+  //A type for the seaonPassData.json's rewards
+  fileName: string; //the file name of the image in the seasonPassImages folder
+  rank: number;
+  freeOrPremium: 'free' | 'premium';
+  itemName: string;
+  itemDescription: string;
+  itemQuantity: number;
+}
+
 const toolTipHovering = atom(false);
 const toolTipType = atom<'challenge' | 'seasonalReward' | null>(null);
 const currentToolTipChallengeProps = atom<challengeProps | null>(null);

@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { useAtomValue } from 'jotai';
 import {
   toolTipHovering,
@@ -68,23 +68,21 @@ export default function ToolTipHandler() {
   positionToolTip();
 
   return (
-    <>
-      <div
-        className={`${
-          toolTipHoveringState ? 'visible' : 'invisible'
-        } absolute left-0 top-0 z-50 flex`}
-        ref={containerRef}
-        //add the translate for x and y as an inline style
-        style={{
-          transform: `translateX(${computedHandlerX}px) translateY(${computedHandlerY}px)`,
-        }}
-      >
-        {curToolTipType === 'challenge' && curToolTipChallengeProps != null ? (
-          <ChallengeToolTip {...curToolTipChallengeProps} />
-        ) : (
-          curToolTipType === 'seasonalReward' && <div />
-        )}
-      </div>
-    </>
+    <div
+      className={`${
+        toolTipHoveringState ? 'visible' : 'invisible'
+      } absolute left-0 top-0 z-50 flex`}
+      ref={containerRef}
+      //add the translate for x and y as an inline style
+      style={{
+        transform: `translateX(${computedHandlerX}px) translateY(${computedHandlerY}px)`,
+      }}
+    >
+      {curToolTipType === 'challenge' && curToolTipChallengeProps != null ? (
+        <ChallengeToolTip {...curToolTipChallengeProps} />
+      ) : (
+        curToolTipType === 'seasonalReward' && <div />
+      )}
+    </div>
   );
 }
