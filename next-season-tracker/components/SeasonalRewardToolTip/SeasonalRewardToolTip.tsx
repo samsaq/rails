@@ -1,7 +1,9 @@
 import { seasonalRewardProps } from '@/atoms';
 
 //A component which will display a tooltip for a seasonal reward item
-export default function SeasonalRewardToolTip(props: seasonalRewardProps) {
+export default function SeasonalRewardToolTip(
+  props: Readonly<seasonalRewardProps>
+) {
   const cleanedDesc = props.itemDescription.replace(/\\/g, '');
 
   function shortenDescription(description: string, maxLength: number) {
