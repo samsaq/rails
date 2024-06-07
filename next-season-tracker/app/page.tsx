@@ -4,6 +4,7 @@ import ChallengeToolTip from '@/components/challengeToolTip/challengeToolTip';
 import SeasonalRewardToolTip from '@/components/SeasonalRewardToolTip/SeasonalRewardToolTip';
 import ToolTipHandler from '@/components/ToolTipHandler/ToolTipHandler';
 import SeasonalChallengesRow from '@/components/SeasonalChallengesRow/SeasonalChallengesRow';
+import SeasonPassDisplay from '@/components/seasonpassDisplay/SeasonPassDisplay';
 
 export default function Home() {
   return (
@@ -38,6 +39,7 @@ export default function Home() {
         itemDescription='A collection of universal components that can be used to infuse power between gear items. Can be purchased from the Gunsmith or acquired from special reward sources.'
         itemQuantity={3}
       />
+      <SeasonPassDisplay />
       <SeasonalChallengesRow />
       <ChallengeToolTip
         name='Into the Depths I'
